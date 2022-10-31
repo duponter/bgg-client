@@ -1,0 +1,41 @@
+<geeklist id="274761" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+    <postdate>Wed, 15 Jul 2020 07:17:21 +0000</postdate>
+    <postdate_timestamp>1594797441</postdate_timestamp>
+    <editdate>Wed, 11 Nov 2020 09:05:34 +0000</editdate>
+    <editdate_timestamp>1605085534</editdate_timestamp>
+    <thumbs>0</thumbs>
+    <numitems>10</numitems>
+    <username>duponter</username>
+    <title>Borrowed Board Games</title>
+    <description>Board Games temporarily in my possession.</description>
+    <item id="7765962" objecttype="thing" subtype="boardgame" objectid="160495" objectname="ZhanGuo" username="duponter" postdate="Wed, 15 Jul 2020 07:16:09 +0000" editdate="Wed, 15 Jul 2020 07:16:09 +0000" thumbs="0" imageid="2242246">
+        <body>Forum Federatie</body>
+    </item>
+    <item id="9153294" objecttype="thing" subtype="boardgame" objectid="270673" objectname="Silver &amp; Gold" username="duponter" postdate="Fri, 26 Aug 2022 19:39:49 +0000" editdate="Fri, 26 Aug 2022 19:39:49 +0000" thumbs="0" imageid="6974604">
+        <body>Forum Mortsel</body>
+    </item>
+    <item id="9153298" objecttype="thing" subtype="boardgame" objectid="300531" objectname="Paleo" username="duponter" postdate="Fri, 26 Aug 2022 19:40:06 +0000" editdate="Fri, 26 Aug 2022 19:40:06 +0000" thumbs="0" imageid="6039256">
+        <body>Forum Mortsel</body>
+    </item>
+    <item id="9153300" objecttype="thing" subtype="boardgame" objectid="43570" objectname="Friday" username="duponter" postdate="Fri, 26 Aug 2022 19:40:23 +0000" editdate="Fri, 26 Aug 2022 19:40:23 +0000" thumbs="0" imageid="1513328">
+        <body>Forum Mortsel</body>
+    </item>
+    <item id="9265058" objecttype="thing" subtype="boardgame" objectid="339906" objectname="The Hunger" username="duponter" postdate="Sun, 09 Oct 2022 20:47:12 +0000" editdate="Sun, 09 Oct 2022 20:47:12 +0000" thumbs="0" imageid="6218039">
+        <body>Forum Mortsel</body>
+    </item>
+    <item id="9265061" objecttype="thing" subtype="boardgame" objectid="346965" objectname="Azul: Queen's Garden" username="duponter" postdate="Sun, 09 Oct 2022 20:47:34 +0000" editdate="Sun, 09 Oct 2022 20:47:34 +0000" thumbs="0" imageid="6389125">
+        <body>Forum Mortsel</body>
+    </item>
+    <item id="9293548" objecttype="thing" subtype="boardgame" objectid="284378" objectname="Kanban EV" username="duponter" postdate="Mon, 24 Oct 2022 10:56:12 +0000" editdate="Mon, 24 Oct 2022 10:56:12 +0000" thumbs="0" imageid="4924232">
+        <body>Bart</body>
+    </item>
+    <item id="9302273" objecttype="company" subtype="boardgamepublisher" objectid="597" objectname="Eagle-Gryphon Games" username="duponter" postdate="Fri, 28 Oct 2022 16:13:41 +0000" editdate="Fri, 28 Oct 2022 16:14:00 +0000" thumbs="0" imageid="4031835">
+        <body>Publisher as an example</body>
+    </item>
+    <item id="9302277" objecttype="person" subtype="boardgamedesigner" objectid="11767" objectname="Alexander Pfister" username="duponter" postdate="Fri, 28 Oct 2022 16:14:25 +0000" editdate="Fri, 28 Oct 2022 16:14:25 +0000" thumbs="0" imageid="1079358">
+        <body>Designer as an example</body>
+    </item>
+    <item id="9302280" objecttype="person" subtype="boardgameartist" objectid="70533" objectname="Mihajlo Dimitrievski" username="duponter" postdate="Fri, 28 Oct 2022 16:14:45 +0000" editdate="Fri, 28 Oct 2022 16:14:45 +0000" thumbs="0" imageid="1774562">
+        <body>Artist as an example</body>
+    </item>
+</geeklist>

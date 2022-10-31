@@ -2,7 +2,7 @@ package be.edu.bggclient.geeklist;
 
 import java.time.LocalDateTime;
 
-public class GeeklistItem {
+public final class GeeklistItem {
     private final String id;
     private final String objectType;
     private final String subType;
@@ -14,6 +14,20 @@ public class GeeklistItem {
     private final int thumbs;
     private final String imageId;
     private final String comments;
+
+    private GeeklistItem(Builder builder) {
+        this.id = builder.id;
+        this.objectType = builder.objectType;
+        this.subType = builder.subType;
+        this.objectId = builder.objectId;
+        this.objectName = builder.objectName;
+        this.username = builder.username;
+        this.postDate = builder.postDate;
+        this.editDate = builder.editDate;
+        this.thumbs = builder.thumbs;
+        this.imageId = builder.imageId;
+        this.comments = builder.comments;
+    }
 
     public String getId() {
         return id;
@@ -57,20 +71,6 @@ public class GeeklistItem {
 
     public String getComments() {
         return comments;
-    }
-
-    public GeeklistItem(Builder builder) {
-        this.id = builder.id;
-        this.objectType = builder.objectType;
-        this.subType = builder.subType;
-        this.objectId = builder.objectId;
-        this.objectName = builder.objectName;
-        this.username = builder.username;
-        this.postDate = builder.postDate;
-        this.editDate = builder.editDate;
-        this.thumbs = builder.thumbs;
-        this.imageId = builder.imageId;
-        this.comments = builder.comments;
     }
 
     public static final class Builder {

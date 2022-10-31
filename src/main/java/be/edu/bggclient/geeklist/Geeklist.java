@@ -3,7 +3,7 @@ package be.edu.bggclient.geeklist;
 import java.time.LocalDateTime;
 import java.util.List;
 
-public class Geeklist {
+public final class Geeklist {
     private final LocalDateTime postDate;
     private final LocalDateTime editDate;
     private final int thumbs;

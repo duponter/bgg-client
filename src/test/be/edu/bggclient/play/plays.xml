@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plays username="duponter" userid="773962" total="1037" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+    <play id="65259507" date="2022-10-27" quantity="1" length="65" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="It's a Wonderful World" objecttype="thing" objectid="271324">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Corruption &amp; Ascension</comments>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="65257571" date="2022-10-27" quantity="1" length="105" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Kanban EV" objecttype="thing" objectid="284378">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Orange" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="65064603" date="2022-10-20" quantity="1" length="135" incomplete="0" nowinstats="0" location="Sven, Thuis, Mortsel">
+        <item name="Goa" objecttype="thing" objectid="9216">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="1" color="Yellow" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="3" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="evildee" userid="54518" name="Didier De Breuck" startposition="4" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="65001921" date="2022-10-17" quantity="1" length="165" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Dungeon Lords" objecttype="thing" objectid="45315">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="2" color="Green" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64961004" date="2022-10-16" quantity="1" length="75" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Imperial Settlers: Empires of the North" objecttype="thing" objectid="270844">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="Valiscru" userid="1133463" name="Vanessa Bickx" startposition="2" color="Green" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Dominique" startposition="3" color="Yellow" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64875769" date="2022-10-13" quantity="1" length="140" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Keyper" objecttype="thing" objectid="212516">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="evildee" userid="54518" name="Didier De Breuck" startposition="1" color="Yellow" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="3" color="Green" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64807848" date="2022-10-10" quantity="1" length="95" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Grand Austria Hotel" objecttype="thing" objectid="182874">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="2" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="3" color="Purple" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64613997" date="2022-10-03" quantity="1" length="95" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="The Hunger" objecttype="thing" objectid="339906">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="1" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="2" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="4" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64571153" date="2022-10-02" quantity="1" length="115" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Maracaibo" objecttype="thing" objectid="276025">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Andrew Dolphin" startposition="2" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="ChristineB" userid="1323972" name="Christine Bracke" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64506349" date="2022-09-30" quantity="1" length="90" incomplete="0" nowinstats="0" location="FORUM-Mortsel, 't Centrum, Mortsel">
+        <item name="Franchise" objecttype="thing" objectid="245645">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="2" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="3" color="Blue" score="" new="1" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="4" color="Orange" score="" new="1" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="64508916" date="2022-09-30" quantity="1" length="45" incomplete="0" nowinstats="0" location="FORUM-Mortsel, 't Centrum, Mortsel">
+        <item name="Istanbul" objecttype="thing" objectid="148949">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="2" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="4" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64482445" date="2022-09-29" quantity="1" length="105" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Grand Austria Hotel" objecttype="thing" objectid="182874">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="Purple" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="64439850" date="2022-09-27" quantity="1" length="95" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Obsession" objecttype="thing" objectid="231733">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64318595" date="2022-09-23" quantity="1" length="225" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Star Wars: Rebellion" objecttype="thing" objectid="187645">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Rise of the Empire: Advanced Tactics Cards</comments>
+        <players>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="1" color="White" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Black" score="" new="1" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="64294383" date="2022-09-22" quantity="1" length="110" incomplete="0" nowinstats="0" location="Glenn, Thuis, Kontich">
+        <item name="Scythe" objecttype="thing" objectid="169786">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameintegration"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="1" color="White" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="3" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="Black" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64233382" date="2022-09-19" quantity="1" length="165" incomplete="0" nowinstats="0" location="Edouard, Thuis, Mortsel">
+        <item name="El Grande Big Box" objecttype="thing" objectid="171908">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgamecompilation"/>
+            </subtypes>
+        </item>
+        <comments>+Koning en Intrigant
+            +Jubileumuitbreiding
+        </comments>
+        <players>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="1" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="2" color="Pink" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Michaël De Coster" startposition="3" color="Green" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="4" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="Kerpen" userid="2078971" name="Jeroen Jorissen" startposition="5" color="Blue" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64132563" date="2022-09-16" quantity="1" length="145" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Wonderland's War" objecttype="thing" objectid="227935">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Red" score="" new="1" rating="0" win="1"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="3" color="Rose" score="" new="1" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="4" color="Purple" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64050658" date="2022-09-12" quantity="1" length="85" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Clank! In! Space!: A Deck-Building Adventure" objecttype="thing" objectid="233371">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+                <subtype value="boardgameintegration"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="1" color="Orange" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="White" score="" new="1" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="4" color="Purple" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="64048040" date="2022-09-12" quantity="1" length="80" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Tyrants of the Underdark: Board Game" objecttype="thing" objectid="336847">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgamecompilation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="2" color="Orange" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="Black" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63955955" date="2022-09-09" quantity="1" length="105" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Tekhenu: Obelisk of the Sun" objecttype="thing" objectid="297030">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Purple" score="" new="0" rating="0" win="1"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="2" color="Blue" score="" new="1" rating="0" win="0"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="3" color="Orange" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63893370" date="2022-09-06" quantity="1" length="165" incomplete="0" nowinstats="0" location="Michaël, Thuis, Ekeren">
+        <item name="Brass: Birmingham" objecttype="thing" objectid="224517">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Michaël De Coster" startposition="3" color="Purple" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="63675072" date="2022-08-29" quantity="1" length="135" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Kanban EV" objecttype="thing" objectid="284378">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="3" color="Orange" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63438375" date="2022-08-21" quantity="1" length="40" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="New York Zoo" objecttype="thing" objectid="300877">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Yann De Troyer" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Cedric" startposition="3" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Andrew Dolphin" startposition="4" color="" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="63435490" date="2022-08-21" quantity="1" length="25" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Race for the Galaxy" objecttype="thing" objectid="28143">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Yann De Troyer" startposition="1" color="Green" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Andrew Dolphin" startposition="3" color="Orange" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63436080" date="2022-08-21" quantity="1" length="20" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Race for the Galaxy" objecttype="thing" objectid="28143">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Yann De Troyer" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Andrew Dolphin" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63379081" date="2022-08-19" quantity="1" length="135" incomplete="0" nowinstats="0" location="Dirk Frederickx, Thuis, Rumst">
+        <item name="Le Havre" objecttype="thing" objectid="35677">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Michaël De Coster" startposition="1" color="Purple" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="3" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63355199" date="2022-08-18" quantity="1" length="160" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Carnegie" objecttype="thing" objectid="310873">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="evildee" userid="54518" name="Didier De Breuck" startposition="1" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="2" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="63169329" date="2022-08-12" quantity="1" length="80" incomplete="0" nowinstats="0" location="FORUM-Schelle, De Mouterij, Schelle">
+        <item name="Goa" objecttype="thing" objectid="9216">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="RonBelgium" userid="129435" name="Ronny Deckers" startposition="1" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="leys" userid="21596" name="Pieter Leys" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="Wallofshame" userid="681508" name="Johan Drubbel" startposition="4" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63172915" date="2022-08-12" quantity="1" length="70" incomplete="0" nowinstats="0" location="FORUM-Schelle, De Mouterij, Schelle">
+        <item name="El Grande Big Box" objecttype="thing" objectid="171908">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgamecompilation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="leys" userid="21596" name="Pieter Leys" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="Wallofshame" userid="681508" name="Johan Drubbel" startposition="2" color="Green" score="" new="0" rating="0" win="0"/>
+            <player username="RonBelgium" userid="129435" name="Ronny Deckers" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="4" color="Red" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="63146905" date="2022-08-11" quantity="1" length="125" incomplete="0" nowinstats="0" location="Didier De Breuck, Thuis, Antwerpen">
+        <item name="Mombasa" objecttype="thing" objectid="172386">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+ Cooked Books</comments>
+        <players>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="1" color="Green" score="" new="0" rating="0" win="1"/>
+            <player username="evildee" userid="54518" name="Didier De Breuck" startposition="2" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="63097962" date="2022-08-09" quantity="1" length="100" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Dreamscape" objecttype="thing" objectid="231038">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="ArneVdS" userid="1822406" name="Arne Van der Stappen" startposition="1" color="Purple" score="" new="1" rating="0" win="1"/>
+            <player username="engelwi" userid="330275" name="Wim Engels" startposition="2" color="Teal" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Orange" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62927574" date="2022-08-04" quantity="1" length="75" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Cascadia" objecttype="thing" objectid="295947">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Wiebe" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Miek Hoet" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62744347" date="2022-07-29" quantity="1" length="195" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Yedo: Deluxe Master Set" objecttype="thing" objectid="281466">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <comments>+ Teahouse</comments>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Michaël De Coster" startposition="2" color="Green" score="" new="1" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="3" color="Blue" score="" new="1" rating="0" win="1"/>
+            <player username="Kerpen" userid="2078971" name="Jeroen Jorissen" startposition="4" color="Black" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62661753" date="2022-07-26" quantity="1" length="100" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Circadians: First Light" objecttype="thing" objectid="264052">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="1" color="Purple" score="" new="1" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Teal" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Orange" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="64080710" date="2022-07-26" quantity="1" length="60" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Tyrants of the Underdark: Board Game" objecttype="thing" objectid="336847">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgamecompilation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="1" color="Orange" score="" new="1" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Red" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62528194" date="2022-07-22" quantity="1" length="75" incomplete="0" nowinstats="0" location="Michaël, Thuis, Ekeren">
+        <item name="Dune: Imperium" objecttype="thing" objectid="316554">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Rise of Ix</comments>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Michaël De Coster" startposition="2" color="Green" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Maarten" startposition="3" color="Red" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62531830" date="2022-07-22" quantity="1" length="110" incomplete="0" nowinstats="0" location="Michaël, Thuis, Ekeren">
+        <item name="Dune: Imperium" objecttype="thing" objectid="316554">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Rise of Ix</comments>
+        <players>
+            <player username="" userid="0" name="Maarten" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Michaël De Coster" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62448504" date="2022-07-19" quantity="1" length="40" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Azul" objecttype="thing" objectid="230802">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameintegration"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Clara Dupont" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Lucas Dupont" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62458503" date="2022-07-19" quantity="1" length="110" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Great Western Trail" objecttype="thing" objectid="193738">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="62423655" date="2022-07-18" quantity="1" length="55" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Unlock!: Exotic Adventures – Expedition: Challenger" objecttype="thing" objectid="258411">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Miek Hoet" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Wiebe" startposition="4" color="" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="62315346" date="2022-07-15" quantity="1" length="120" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Dune: Imperium" objecttype="thing" objectid="316554">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Rise of Ix</comments>
+        <players>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Yellow" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Michaël De Coster" startposition="4" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61834102" date="2022-06-27" quantity="1" length="55" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Dig Your Way Out" objecttype="thing" objectid="266504">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Wim Aerts" startposition="3" color="" score="" new="1" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61832067" date="2022-06-27" quantity="1" length="105" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Terraforming Mars: Ares Expedition" objecttype="thing" objectid="328871">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Wim Aerts" startposition="3" color="Green" score="" new="1" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="Yellow" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61744177" date="2022-06-24" quantity="1" length="60" incomplete="0" nowinstats="0" location="FORUM-Mortsel, 't Centrum, Mortsel">
+        <item name="The Crew: Mission Deep Sea" objecttype="thing" objectid="324856">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Michaël De Coster" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="3" color="" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61741595" date="2022-06-24" quantity="2" length="50" incomplete="0" nowinstats="0" location="FORUM-Mortsel, 't Centrum, Mortsel">
+        <item name="The Resistance: Avalon" objecttype="thing" objectid="128882">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Michaël De Coster" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Tom Janssens" startposition="3" color="" score="" new="1" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+            <player username="Nilly" userid="593127" name="Niels Engelen" startposition="5" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Thomas" startposition="6" color="" score="" new="1" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="7" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Stefan" startposition="8" color="" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Quinten" startposition="9" color="" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61678806" date="2022-06-21" quantity="1" length="115" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Dune: Imperium" objecttype="thing" objectid="316554">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Rise of Ix</comments>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61679884" date="2022-06-21" quantity="2" length="25" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Mandala" objecttype="thing" objectid="264241">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="61502851" date="2022-06-14" quantity="1" length="105" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Golem" objecttype="thing" objectid="298383">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Teal" score="" new="0" rating="0" win="1"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="2" color="Orange" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Silver" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61503973" date="2022-06-14" quantity="1" length="30" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Project L" objecttype="thing" objectid="260180">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="1" rating="0" win="1"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="3" color="" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61445560" date="2022-06-12" quantity="1" length="175" incomplete="0" nowinstats="0" location="MCP, Hechtel-Eksel">
+        <item name="Anachrony" objecttype="thing" objectid="185343">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameintegration"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Tom Bastianen" startposition="3" color="Red" score="" new="1" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61408597" date="2022-06-11" quantity="1" length="115" incomplete="0" nowinstats="0" location="MCP, Hechtel-Eksel">
+        <item name="Raiders of Scythia" objecttype="thing" objectid="301880">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Orange" score="" new="1" rating="0" win="1"/>
+            <player username="" userid="0" name="Jürgen De Decker" startposition="2" color="Blue" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Dries Geeraerts" startposition="4" color="Purple" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61429899" date="2022-06-11" quantity="1" length="200" incomplete="0" nowinstats="0" location="MCP, Hechtel-Eksel">
+        <item name="Road Kill Rally" objecttype="thing" objectid="65225">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Bjorn Prins" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Jeroen Geuens" startposition="2" color="Purple" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="4" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="5" color="Yellow" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61409465" date="2022-06-11" quantity="1" length="140" incomplete="0" nowinstats="0" location="MCP, Hechtel-Eksel">
+        <item name="Thunder Alley" objecttype="thing" objectid="108906">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameintegration"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="Pink" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Toon Vangenechten" startposition="4" color="Green" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Jens De Brabander" startposition="5" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Bert Aerts" startposition="6" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Jürgen De Decker" startposition="7" color="Purple" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="64080704" date="2022-06-11" quantity="1" length="90" incomplete="0" nowinstats="0" location="MCP, Hechtel-Eksel">
+        <item name="Tyrants of the Underdark: Board Game" objecttype="thing" objectid="336847">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgamecompilation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="2" color="Orange" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Jens De Brabander" startposition="4" color="Black" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61395467" date="2022-06-10" quantity="1" length="135" incomplete="0" nowinstats="0" location="MCP, Hechtel-Eksel">
+        <item name="Coloma: Deluxe Edition" objecttype="thing" objectid="277448">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgamecompilation"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Tom Verbesselt" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Tom Jacobs" startposition="3" color="Green" score="" new="1" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="4" color="Orange" score="" new="0" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="5" color="Purple" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61397906" date="2022-06-10" quantity="1" length="50" incomplete="0" nowinstats="0" location="MCP, Hechtel-Eksel">
+        <item name="Libertalia" objecttype="thing" objectid="125618">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Tom Jacobs" startposition="1" color="Green" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="3" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61333627" date="2022-06-07" quantity="1" length="125" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Terra Mystica" objecttype="thing" objectid="120677">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="Green" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="3" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="4" color="Red" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61190033" date="2022-06-02" quantity="1" length="60" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Gold West" objecttype="thing" objectid="154086">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameintegration"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="1" color="Purple" score="" new="1" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Blue" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Orange" score="" new="1" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="61187257" date="2022-06-02" quantity="1" length="130" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Kanban EV" objecttype="thing" objectid="284378">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Orange" score="" new="0" rating="0" win="1"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="3" color="Purple" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61145709" date="2022-05-31" quantity="1" length="50" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Res Arcana" objecttype="thing" objectid="262712">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61143125" date="2022-05-31" quantity="1" length="70" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Vindication" objecttype="thing" objectid="224783">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="Green" score="" new="0" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="Orange" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="61024569" date="2022-05-27" quantity="1" length="50" incomplete="0" nowinstats="0" location="FORUM-Mortsel, 't Centrum, Mortsel">
+        <item name="It's a Wonderful World" objecttype="thing" objectid="271324">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Kasper Wendelen" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="61021108" date="2022-05-27" quantity="1" length="105" incomplete="0" nowinstats="0" location="FORUM-Mortsel, 't Centrum, Mortsel">
+        <item name="Origins: First Builders" objecttype="thing" objectid="322588">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Dennis Bulens" startposition="1" color="Blue" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Maarten De Puysseleir" startposition="2" color="Brown" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Green" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="60988125" date="2022-05-26" quantity="1" length="75" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Grand Austria Hotel" objecttype="thing" objectid="182874">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60998707" date="2022-05-26" quantity="1" length="65" incomplete="0" nowinstats="0" location="Sven, Thuis, Mortsel">
+        <item name="It's a Wonderful World" objecttype="thing" objectid="271324">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Corruption &amp; Ascension</comments>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60996146" date="2022-05-26" quantity="1" length="170" incomplete="0" nowinstats="0" location="Sven, Thuis, Mortsel">
+        <item name="Kanban EV" objecttype="thing" objectid="284378">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="2" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Purple" score="" new="0" rating="0" win="1"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="4" color="Orange" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60984744" date="2022-05-26" quantity="1" length="15" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Kingdomino" objecttype="thing" objectid="204583">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameintegration"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Clara Dupont" startposition="1" color="Rose" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Lucas Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60954289" date="2022-05-24" quantity="1" length="110" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Ark Nova" objecttype="thing" objectid="342942">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Red" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="60841326" date="2022-05-20" quantity="1" length="50" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="It's a Wonderful World" objecttype="thing" objectid="271324">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Corruption &amp; Ascension</comments>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60838876" date="2022-05-20" quantity="1" length="85" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Lords of Waterdeep" objecttype="thing" objectid="110327">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Scoundrels of Skullport</comments>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60819904" date="2022-05-19" quantity="1" length="130" incomplete="0" nowinstats="0" location="Steffen, Thuis, Borgerhout">
+        <item name="Dwellings of Eldervale" objecttype="thing" objectid="271055">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="1" color="Black" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="2" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Yellow" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="60783115" date="2022-05-17" quantity="1" length="135" incomplete="0" nowinstats="0" location="Dirk Frederickx, Thuis, Rumst">
+        <item name="Kanban EV" objecttype="thing" objectid="284378">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="2" color="Orange" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Purple" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="60727081" date="2022-05-15" quantity="1" length="130" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Blood Bowl: Team Manager – The Card Game" objecttype="thing" objectid="90137">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Paul Meyers" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Kathleen" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+            <player username="Drimdal" userid="792305" name="Ken Marquetecken" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60673386" date="2022-05-13" quantity="1" length="180" incomplete="0" nowinstats="0" location="FORUM-Schelle, De Mouterij, Schelle">
+        <item name="Boonlake" objecttype="thing" objectid="343905">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Tom De Hert" startposition="1" color="Green" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="dierenh" userid="349445" name="Hilde Vandierendonck" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="RonBelgium" userid="129435" name="Ronny Deckers" startposition="4" color="Blue" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60616927" date="2022-05-10" quantity="1" length="200" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="On Mars" objecttype="thing" objectid="184267">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Purple" score="" new="0" rating="0" win="1"/>
+            <player username="Edou" userid="1852958" name="Edouard Van Belle" startposition="3" color="Yellow" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60487845" date="2022-05-05" quantity="1" length="120" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Ark Nova" objecttype="thing" objectid="342942">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60452283" date="2022-05-03" quantity="1" length="190" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Ark Nova" objecttype="thing" objectid="342942">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="Yellow" score="" new="1" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="60387948" date="2022-05-01" quantity="1" length="120" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Origins: First Builders" objecttype="thing" objectid="322588">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="" userid="0" name="Jeroen Gerlo" startposition="1" color="Green" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="1" rating="0" win="1"/>
+            <player username="" userid="0" name="Andrew Dolphin" startposition="3" color="Black" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60330778" date="2022-04-29" quantity="1" length="165" incomplete="0" nowinstats="0" location="FORUM-Mortsel, 't Centrum, Mortsel">
+        <item name="Ark Nova" objecttype="thing" objectid="342942">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="1" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Blue" score="" new="1" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Red" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="60136054" date="2022-04-21" quantity="1" length="150" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Ark Nova" objecttype="thing" objectid="342942">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="1" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="1" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="60094854" date="2022-04-19" quantity="1" length="175" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Terraforming Mars" objecttype="thing" objectid="167791">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <comments>+Prelude</comments>
+        <players>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="1" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59957262" date="2022-04-15" quantity="1" length="125" incomplete="0" nowinstats="0" location="Dirk Frederickx, Thuis, Rumst">
+        <item name="Clans of Caledonia" objecttype="thing" objectid="216132">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="1" color="White" score="" new="0" rating="0" win="0"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="2" color="Black" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="4" color="Red" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59961292" date="2022-04-15" quantity="2" length="20" incomplete="0" nowinstats="0" location="Dirk Frederickx, Thuis, Rumst">
+        <item name="Ribbit" objecttype="thing" objectid="9441">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="4" color="" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="59960427" date="2022-04-15" quantity="1" length="55" incomplete="0" nowinstats="0" location="Dirk Frederickx, Thuis, Rumst">
+        <item name="Saint Petersburg" objecttype="thing" objectid="9217">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="2" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="3" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="4" color="Green" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="59927349" date="2022-04-14" quantity="1" length="105" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Golem" objecttype="thing" objectid="298383">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="Orange" score="" new="1" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Silver" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59930046" date="2022-04-14" quantity="1" length="60" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Meadow" objecttype="thing" objectid="314491">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Red" score="" new="1" rating="0" win="1"/>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="2" color="Teal" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59742419" date="2022-04-07" quantity="1" length="145" incomplete="0" nowinstats="0" location="Sven, Thuis, Mortsel">
+        <item name="Clans of Caledonia" objecttype="thing" objectid="216132">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="2" color="Red" score="" new="0" rating="0" win="1"/>
+            <player username="TurtleR6" userid="246302" name="Dirk Frederickx" startposition="3" color="Black" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="4" color="White" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59641104" date="2022-04-03" quantity="1" length="70" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Dune: Imperium" objecttype="thing" objectid="316554">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="Valiscru" userid="1133463" name="Vanessa Bickx" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="" userid="0" name="Ben Peeters" startposition="3" color="Green" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59643516" date="2022-04-03" quantity="1" length="40" incomplete="0" nowinstats="0" location="The Playground Hoofdkerk, Antwerpen">
+        <item name="Targi" objecttype="thing" objectid="118048">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Valiscru" userid="1133463" name="Vanessa Bickx" startposition="1" color="Blue" score="" new="1" rating="0" win="1"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="White" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59559767" date="2022-03-31" quantity="1" length="165" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Viticulture Essential Edition" objecttype="thing" objectid="183394">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgamecompilation"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <comments>+ Tuscany EE
+            + Visit from the Rhine Valley
+        </comments>
+        <players>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="1" color="White" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="3" color="Orange" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59501137" date="2022-03-28" quantity="1" length="130" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Endeavor: Age of Sail" objecttype="thing" objectid="233398">
+            <subtypes>
+                <subtype value="boardgame"/>
+                <subtype value="boardgameimplementation"/>
+            </subtypes>
+        </item>
+        <comments>+ Age of Expansion: Prominence tiles
+            + Charter Companies Mini-Expansion
+            + Dominium Micro-expansion
+        </comments>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="Yellow" score="" new="0" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="3" color="White" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="4" color="Blue" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="59366474" date="2022-03-23" quantity="1" length="140" incomplete="0" nowinstats="0" location="FORUM-Schelle, De Mouterij, Schelle">
+        <item name="Messina 1347" objecttype="thing" objectid="238799">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="dierenh" userid="349445" name="Hilde Vandierendonck" startposition="1" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="Wallofshame" userid="681508" name="Johan Drubbel" startposition="2" color="Purple" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Sven" startposition="3" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="4" color="Blue" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="59325081" date="2022-03-21" quantity="1" length="60" incomplete="0" nowinstats="0" location="Glenn, Thuis, Kontich">
+        <item name="Libertalia" objecttype="thing" objectid="125618">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="Yellow" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="Blue" score="" new="0" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="3" color="Red" score="" new="0" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="4" color="Green" score="" new="1" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="59327433" date="2022-03-21" quantity="1" length="45" incomplete="0" nowinstats="0" location="Glenn, Thuis, Kontich">
+        <item name="Nidavellir" objecttype="thing" objectid="293014">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="3" color="" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59286329" date="2022-03-20" quantity="1" length="90" incomplete="0" nowinstats="0" location="Wouter, Thuis, Hemiksem">
+        <item name="Seasons" objecttype="thing" objectid="108745">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="1" color="Gray" score="" new="0" rating="0" win="0"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="Orange" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="Purple" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="59206515" date="2022-03-17" quantity="1" length="165" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Obsession" objecttype="thing" objectid="231733">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59166152" date="2022-03-15" quantity="1" length="110" incomplete="0" nowinstats="0" location="Erwin, Thuis, Mortsel">
+        <item name="Merv: The Heart of the Silk Road" objecttype="thing" objectid="306040">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="1" color="Blue" score="" new="0" rating="0" win="1"/>
+            <player username="WouterAerts" userid="679875" name="Wouter Aerts" startposition="2" color="Red" score="" new="1" rating="0" win="0"/>
+            <player username="" userid="0" name="Glenn Daniëls" startposition="3" color="Black" score="" new="1" rating="0" win="0"/>
+            <player username="jarrebesetoert" userid="1080080" name="Koen Lostrie" startposition="4" color="Yellow" score="" new="1" rating="0" win="0"/>
+        </players>
+    </play>
+    <play id="59022748" date="2022-03-10" quantity="1" length="165" incomplete="0" nowinstats="0" location="Sven, Thuis, Mortsel">
+        <item name="Anno 1800" objecttype="thing" objectid="311193">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="59002168" date="2022-03-09" quantity="1" length="150" incomplete="0" nowinstats="0" location="Sven, Thuis, Mortsel">
+        <item name="Obsession" objecttype="thing" objectid="231733">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="Svennos" userid="159953" name="Sven Talboom" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+            <player username="de rode baron" userid="562831" name="Steffen Wendelen" startposition="3" color="" score="" new="1" rating="0" win="1"/>
+        </players>
+    </play>
+    <play id="58897128" date="2022-03-05" quantity="1" length="115" incomplete="0" nowinstats="0" location="Bart De Vré, Thuis, Mortsel">
+        <item name="Hallertau" objecttype="thing" objectid="300322">
+            <subtypes>
+                <subtype value="boardgame"/>
+            </subtypes>
+        </item>
+        <players>
+            <player username="bartie" userid="215156" name="Bart De Vré" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+            <player username="duponter" userid="773962" name="Erwin Dupont" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+        </players>
+    </play>
+</plays>

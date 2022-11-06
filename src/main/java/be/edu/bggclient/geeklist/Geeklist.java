@@ -2,6 +2,7 @@ package be.edu.bggclient.geeklist;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.StringJoiner;
 
 public final class Geeklist {
     private final LocalDateTime postDate;
@@ -54,6 +55,20 @@ public final class Geeklist {
 
     public List<GeeklistItem> getItems() {
         return items;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", Geeklist.class.getSimpleName() + "[", "]")
+                .add("postDate=" + postDate)
+                .add("editDate=" + editDate)
+                .add("thumbs=" + thumbs)
+                .add("itemCount=" + itemCount)
+                .add("username='" + username + "'")
+                .add("title='" + title + "'")
+                .add("description='" + description + "'")
+                .add("items=" + items)
+                .toString();
     }
 
     public static final class Builder {

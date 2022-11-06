@@ -1,6 +1,7 @@
 package be.edu.bggclient.geeklist;
 
 import java.time.LocalDateTime;
+import java.util.StringJoiner;
 
 public final class GeeklistItem {
     private final String id;
@@ -71,6 +72,23 @@ public final class GeeklistItem {
 
     public String getComments() {
         return comments;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", GeeklistItem.class.getSimpleName() + "[", "]")
+                .add("id='" + id + "'")
+                .add("objectType='" + objectType + "'")
+                .add("subType='" + subType + "'")
+                .add("objectId='" + objectId + "'")
+                .add("objectName='" + objectName + "'")
+                .add("username='" + username + "'")
+                .add("postDate=" + postDate)
+                .add("editDate=" + editDate)
+                .add("thumbs=" + thumbs)
+                .add("imageId='" + imageId + "'")
+                .add("comments='" + comments + "'")
+                .toString();
     }
 
     public static final class Builder {

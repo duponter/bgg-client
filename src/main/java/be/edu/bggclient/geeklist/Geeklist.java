@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.StringJoiner;
 
 public final class Geeklist {
+    private final String id;
     private final LocalDateTime postDate;
     private final LocalDateTime editDate;
     private final int thumbs;
@@ -15,6 +16,7 @@ public final class Geeklist {
     private final List<GeeklistItem> items;
 
     private Geeklist(Builder builder) {
+        this.id = builder.id;
         this.postDate = builder.postDate;
         this.editDate = builder.editDate;
         this.thumbs = builder.thumbs;
@@ -23,6 +25,10 @@ public final class Geeklist {
         this.title = builder.title;
         this.description = builder.description;
         this.items = List.copyOf(builder.items);
+    }
+
+    public String getId() {
+        return id;
     }
 
     public LocalDateTime getPostDate() {
@@ -60,6 +66,7 @@ public final class Geeklist {
     @Override
     public String toString() {
         return new StringJoiner(", ", Geeklist.class.getSimpleName() + "[", "]")
+                .add("id=" + id)
                 .add("postDate=" + postDate)
                 .add("editDate=" + editDate)
                 .add("thumbs=" + thumbs)
@@ -72,6 +79,7 @@ public final class Geeklist {
     }
 
     public static final class Builder {
+        private String id;
         private LocalDateTime postDate;
         private LocalDateTime editDate;
         private int thumbs;
@@ -80,6 +88,11 @@ public final class Geeklist {
         private String title;
         private String description;
         private List<GeeklistItem> items;
+
+        public Builder withId(String id) {
+            this.id = id;
+            return this;
+        }
 
         public Builder withPostDate(LocalDateTime postDate) {
             this.postDate = postDate;

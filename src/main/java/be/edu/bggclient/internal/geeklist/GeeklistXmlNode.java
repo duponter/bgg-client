@@ -15,6 +15,7 @@ public class GeeklistXmlNode extends XmlNode implements Builder<Geeklist> {
     @Override
     public Geeklist build() {
         return new Geeklist.Builder()
+                .withId(this.string("@id"))
                 .withPostDate(this.dateTime("postdate"))
                 .withEditDate(this.dateTime("editdate"))
                 .withThumbs(this.number("thumbs").intValue())

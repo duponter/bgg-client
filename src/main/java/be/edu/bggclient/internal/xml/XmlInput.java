@@ -7,11 +7,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
 public final class XmlInput {
-    public Document read(InputStream inputStream) {
+    public Node read(InputStream inputStream) {
         try {
             return newDocumentBuilder().parse(inputStream);
         } catch (SAXException | IOException e) {

@@ -14,7 +14,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-import org.w3c.dom.Document;
+import org.w3c.dom.Node;
 
 public class XslStylesheet {
     private static final String XML_DECLARATION = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
@@ -44,7 +44,7 @@ public class XslStylesheet {
         }
     }
 
-    public String apply(Document document) {
+    public String apply(Node node) {
         TransformerFactory factory = TransformerFactory.newInstance();
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
@@ -52,7 +52,7 @@ public class XslStylesheet {
         try {
             Transformer transformer = factory.newTransformer(new StreamSource(XslStylesheet.class.getResourceAsStream(this.asFilename())));
             StringWriter stringWriter = new StringWriter();
-            transformer.transform(new DOMSource(document), new StreamResult(stringWriter));
+            transformer.transform(new DOMSource(node), new StreamResult(stringWriter));
             return stringWriter.toString();
         } catch (TransformerException e) {
             e.printStackTrace();

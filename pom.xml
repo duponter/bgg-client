@@ -15,13 +15,14 @@
 
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
-<!--        <argLine>-->
-<!--            &#45;&#45;add-exports org.junit.platform.commons/org.junit.platform.commons.util=ALL-UNNAMED-->
-<!--            &#45;&#45;add-exports org.junit.platform.commons/org.junit.platform.commons.logging=ALL-UNNAMED-->
-<!--        </argLine>-->
+        <argLine>
+            --add-opens be.edu.bgg.client/be.edu.bggclient.geeklist=ALL-UNNAMED
+        </argLine>
 
         <junit-jupiter.version>5.9.1</junit-jupiter.version>
         <assertj.version>3.23.1</assertj.version>
+        <approvaltests.version>18.5.0</approvaltests.version>
+        <gson.version>2.10</gson.version>
     </properties>
 
     <build>
@@ -41,9 +42,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>${assertj.version}</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit-jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -53,11 +54,22 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit-jupiter.version}</version>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj.version}</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>com.approvaltests</groupId>
+            <artifactId>approvaltests</artifactId>
+            <version>${approvaltests.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson.version}</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 </project>

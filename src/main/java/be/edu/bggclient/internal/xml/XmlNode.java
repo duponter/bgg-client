@@ -1,4 +1,4 @@
-package be.edu.bggclient.internal;
+package be.edu.bggclient.internal.xml;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

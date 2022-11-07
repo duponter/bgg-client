@@ -2,7 +2,7 @@ package be.edu.bggclient.internal.geeklist;
 
 import be.edu.bggclient.geeklist.GeeklistItem;
 import be.edu.bggclient.internal.Builder;
-import be.edu.bggclient.internal.XmlNode;
+import be.edu.bggclient.internal.xml.XmlNode;
 import org.w3c.dom.Node;
 
 public class GeeklistItemXmlNode extends XmlNode implements Builder<GeeklistItem> {

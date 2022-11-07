@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 
 import be.edu.bggclient.geeklist.Geeklist;
 import be.edu.bggclient.internal.Builder;
-import be.edu.bggclient.internal.XmlNode;
+import be.edu.bggclient.internal.xml.XmlNode;
 import org.w3c.dom.Node;
 
 public class GeeklistXmlNode extends XmlNode implements Builder<Geeklist> {

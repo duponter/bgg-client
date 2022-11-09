@@ -1,10 +1,9 @@
 package be.edu.bggclient.internal.xml;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.StringWriter;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 import javax.xml.XMLConstants;
 import javax.xml.transform.Transformer;
@@ -36,11 +35,10 @@ public class XslStylesheet {
     }
 
     public String read() {
-        String filename = this.asFilename();
-        try {
-            return Files.readString(Path.of(Objects.requireNonNull(XslStylesheet.class.getResource(filename)).toURI()));
-        } catch (IOException | URISyntaxException e) {
-            throw new IllegalStateException("Unable to read Xsl Stylesheet " + filename, e);
+        try (InputStream inputStream = XslStylesheet.class.getResourceAsStream(this.location)) {
+            return new String(Objects.requireNonNull(inputStream).readAllBytes(), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            throw new IllegalStateException("Unable to read Xsl Stylesheet " + this.location, e);
         }
     }
 
@@ -49,21 +47,14 @@ public class XslStylesheet {
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
 
-        try {
-            Transformer transformer = factory.newTransformer(new StreamSource(XslStylesheet.class.getResourceAsStream(this.asFilename())));
+        try (InputStream inputStream = XslStylesheet.class.getResourceAsStream(this.location)) {
+            Transformer transformer = factory.newTransformer(new StreamSource(inputStream));
             StringWriter stringWriter = new StringWriter();
             transformer.transform(new DOMSource(node), new StreamResult(stringWriter));
             return stringWriter.toString();
-        } catch (TransformerException e) {
+        } catch (TransformerException | IOException e) {
             e.printStackTrace();
             throw new IllegalStateException(e);
         }
-
     }
-
-    private String asFilename() {
-        int pos = this.location.lastIndexOf("/");
-        return (pos == -1 ? this.location : this.location.substring(0, pos)) + ".xsl";
-    }
-
 }

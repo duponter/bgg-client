@@ -18,7 +18,7 @@ import org.w3c.dom.Node;
 
 public class XslStylesheet {
     private static final String XML_DECLARATION = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
-    private static final String XSL_DIRECTIVE = "<?xml-stylesheet type=\"text/xsl\" href=\"%s\"?>";
+    private static final String XSL_DIRECTIVE = "<?xml-stylesheet version=\"2.0\" type=\"text/xsl\" href=\"%s\"?>";
 
     private final String location;
 

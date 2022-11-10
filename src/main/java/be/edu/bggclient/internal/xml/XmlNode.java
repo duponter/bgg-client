@@ -1,7 +1,5 @@
 package be.edu.bggclient.internal.xml;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -42,10 +40,6 @@ public abstract class XmlNode {
 
     protected String string(String expression) {
         return (String) this.data(expression, XPathConstants.STRING);
-    }
-
-    protected LocalDateTime dateTime(String expression) {
-        return LocalDateTime.parse(this.string(expression), DateTimeFormatter.RFC_1123_DATE_TIME);
     }
 
     protected Number numericValueAttribute(String attribute) {

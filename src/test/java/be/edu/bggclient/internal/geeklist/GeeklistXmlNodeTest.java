@@ -3,11 +3,10 @@ package be.edu.bggclient.internal.geeklist;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringWriter;
-import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 
 import be.edu.bggclient.geeklist.Geeklist;
 import be.edu.bggclient.geeklist.GeeklistItem;
+import be.edu.bggclient.internal.xml.XmlFormatter;
 import be.edu.bggclient.internal.xml.XmlInput;
 import be.edu.bggclient.internal.xml.XmlNode;
 import be.edu.bggclient.internal.xml.XslStylesheet;
@@ -27,34 +26,32 @@ class GeeklistXmlNodeTest {
         JsonApprovals.verifyAsJson(new GeeklistXmlNode(readGeeklistXml()).build());
     }
 
-    private static final DateTimeFormatter BGG_DATE_TIME = DateTimeFormatter.ofPattern("E, dd MMM yyyy HH:mm:ss +0000", Locale.US);
-
     private Element toXml(Geeklist geeklist) {
         Element geeklistNode = DocumentHelper.createElement("geeklist");
         geeklistNode.addAttribute("id", geeklist.getId());
-        geeklistNode.addElement("postdate").addText(geeklist.getPostDate().format(BGG_DATE_TIME));
-        geeklistNode.addElement("editdate").addText(geeklist.getEditDate().format(BGG_DATE_TIME));
-        geeklistNode.addElement("thumbs").addText(Integer.toString(geeklist.getThumbs()));
-        geeklistNode.addElement("numitems").addText(Integer.toString(geeklist.getItemCount()));
-        geeklistNode.addElement("username").addText(geeklist.getUsername());
-        geeklistNode.addElement("title").addText(geeklist.getTitle());
-        geeklistNode.addElement("description").addText(geeklist.getDescription());
+        geeklistNode.addElement("postdate").addText(XmlFormatter.format(geeklist.getPostDate()));
+        geeklistNode.addElement("editdate").addText(XmlFormatter.format(geeklist.getEditDate()));
+        geeklistNode.addElement("thumbs").addText(XmlFormatter.format(geeklist.getThumbs()));
+        geeklistNode.addElement("numitems").addText(XmlFormatter.format(geeklist.getItemCount()));
+        geeklistNode.addElement("username").addText(XmlFormatter.format(geeklist.getUsername()));
+        geeklistNode.addElement("title").addText(XmlFormatter.format(geeklist.getTitle()));
+        geeklistNode.addElement("description").addText(XmlFormatter.format(geeklist.getDescription()));
         geeklist.getItems().forEach(geeklistItem -> geeklistNode.add(toXml(geeklistItem)));
         return geeklistNode;
     }
 
     private Element toXml(GeeklistItem item) {
         Element itemNode = DocumentHelper.createElement("item");
-        itemNode.addAttribute("id", item.getId());
-        itemNode.addAttribute("objecttype", item.getObjectType());
-        itemNode.addAttribute("subtype", item.getSubType());
-        itemNode.addAttribute("objectid", item.getObjectId());
-        itemNode.addAttribute("objectname", item.getObjectName());
-        itemNode.addAttribute("username", item.getUsername());
-        itemNode.addAttribute("postdate", item.getPostDate().format(BGG_DATE_TIME));
-        itemNode.addAttribute("editdate", item.getEditDate().format(BGG_DATE_TIME));
-        itemNode.addAttribute("thumbs", Integer.toString(item.getThumbs()));
-        itemNode.addAttribute("imageid", item.getImageId());
+        itemNode.addAttribute("id", XmlFormatter.format(item.getId()));
+        itemNode.addAttribute("objecttype", XmlFormatter.format(item.getObjectType()));
+        itemNode.addAttribute("subtype", XmlFormatter.format(item.getSubType()));
+        itemNode.addAttribute("objectid", XmlFormatter.format(item.getObjectId()));
+        itemNode.addAttribute("objectname", XmlFormatter.format(item.getObjectName()));
+        itemNode.addAttribute("username", XmlFormatter.format(item.getUsername()));
+        itemNode.addAttribute("postdate", XmlFormatter.format(item.getPostDate()));
+        itemNode.addAttribute("editdate", XmlFormatter.format(item.getEditDate()));
+        itemNode.addAttribute("thumbs", XmlFormatter.format(item.getThumbs()));
+        itemNode.addAttribute("imageid", XmlFormatter.format(item.getImageId()));
         itemNode.addElement("body").addText(item.getComments());
         return itemNode;
     }

@@ -2,6 +2,7 @@ package be.edu.bggclient.internal.geeklist;
 
 import be.edu.bggclient.geeklist.GeeklistItem;
 import be.edu.bggclient.internal.Builder;
+import be.edu.bggclient.internal.xml.XmlFormatter;
 import be.edu.bggclient.internal.xml.XmlNode;
 import org.w3c.dom.Node;
 
@@ -19,8 +20,8 @@ public class GeeklistItemXmlNode extends XmlNode implements Builder<GeeklistItem
                 .withObjectId(this.string("@objectid"))
                 .withObjectName(this.string("@objectname"))
                 .withUsername(this.string("@username"))
-                .withPostDate(this.dateTime("@postdate"))
-                .withEditDate(this.dateTime("@editdate"))
+                .withPostDate(XmlFormatter.parseDateTime(this.string("@postdate")))
+                .withEditDate(XmlFormatter.parseDateTime(this.string("@editdate")))
                 .withThumbs(this.number("@thumbs").intValue())
                 .withImageId(this.string("@imageid"))
                 .withComments(this.string("body"))

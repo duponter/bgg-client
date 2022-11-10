@@ -4,6 +4,7 @@ import java.util.stream.Collectors;
 
 import be.edu.bggclient.geeklist.Geeklist;
 import be.edu.bggclient.internal.Builder;
+import be.edu.bggclient.internal.xml.XmlFormatter;
 import be.edu.bggclient.internal.xml.XmlNode;
 import org.w3c.dom.Node;
 
@@ -16,8 +17,8 @@ public class GeeklistXmlNode extends XmlNode implements Builder<Geeklist> {
     public Geeklist build() {
         return new Geeklist.Builder()
                 .withId(this.string("@id"))
-                .withPostDate(this.dateTime("postdate"))
-                .withEditDate(this.dateTime("editdate"))
+                .withPostDate(XmlFormatter.parseDateTime(this.string("postdate")))
+                .withEditDate(XmlFormatter.parseDateTime(this.string("editdate")))
                 .withThumbs(this.number("thumbs").intValue())
                 .withItemCount(this.number("numitems").intValue())
                 .withUsername(this.string("username"))

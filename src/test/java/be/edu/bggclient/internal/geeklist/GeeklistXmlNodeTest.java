@@ -36,7 +36,6 @@ class GeeklistXmlNodeTest {
     private Node readGeeklistXml() {
         try (InputStream xml = GeeklistXmlNodeTest.class.getResourceAsStream("geeklist.xml")) {
             assertThat(xml).isNotNull();
-            // TODO_EDU support multiple geeklists?
             return XmlNode.nodes(new XmlInput().read(xml), "//geeklist").findFirst().orElseThrow();
         } catch (IOException ioe) {
             throw new IllegalStateException(ioe);
@@ -45,7 +44,7 @@ class GeeklistXmlNodeTest {
 
     private Element toXmlNode(Geeklist geeklist) {
         Element geeklistNode = DocumentHelper.createElement("geeklist");
-        geeklistNode.addAttribute("id", geeklist.getId());
+        geeklistNode.addAttribute("id", XmlFormatter.format(geeklist.getId()));
         geeklistNode.addElement("postdate").addText(XmlFormatter.format(geeklist.getPostDate()));
         geeklistNode.addElement("editdate").addText(XmlFormatter.format(geeklist.getEditDate()));
         geeklistNode.addElement("thumbs").addText(XmlFormatter.format(geeklist.getThumbs()));

@@ -16,7 +16,9 @@
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
         <argLine>
+            --add-opens java.base/java.time=ALL-UNNAMED
             --add-opens be.edu.bgg.client/be.edu.bggclient.geeklist=ALL-UNNAMED
+            --add-opens be.edu.bgg.client/be.edu.bggclient.play=ALL-UNNAMED
         </argLine>
 
         <junit-jupiter.version>5.9.1</junit-jupiter.version>

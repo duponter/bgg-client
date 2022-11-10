@@ -10,10 +10,11 @@ public final class CollectionItem {
     private final int yearPublished;
     private final String imageUrl;
     private final String thumbnailUrl;
-    private final Statistics statistics;
+    private final CollectionStatistics statistics;
     private final Status status;
     private final int playCount;
     private final PrivateInfo privateInfo;
+    private final String comment;
 
     private CollectionItem(Builder builder) {
         this.objectType = builder.objectType;
@@ -29,6 +30,7 @@ public final class CollectionItem {
         this.status = builder.status;
         this.playCount = builder.playCount;
         this.privateInfo = builder.privateInfo;
+        this.comment = builder.comment;
     }
 
     public String getObjectType() {
@@ -67,7 +69,7 @@ public final class CollectionItem {
         return thumbnailUrl;
     }
 
-    public Statistics getStatistics() {
+    public CollectionStatistics getStatistics() {
         return statistics;
     }
 
@@ -83,6 +85,10 @@ public final class CollectionItem {
         return privateInfo;
     }
 
+    public String getComment() {
+        return comment;
+    }
+
     public static final class Builder {
         private String objectType;
         private String objectId;
@@ -93,10 +99,11 @@ public final class CollectionItem {
         private int yearPublished;
         private String imageUrl;
         private String thumbnailUrl;
-        private Statistics statistics;
+        private CollectionStatistics statistics;
         private Status status;
         private int playCount;
         private PrivateInfo privateInfo;
+        private String comment;
 
         public Builder withObjectType(String objectType) {
             this.objectType = objectType;
@@ -143,7 +150,7 @@ public final class CollectionItem {
             return this;
         }
 
-        public Builder withStatistics(Statistics statistics) {
+        public Builder withStatistics(CollectionStatistics statistics) {
             this.statistics = statistics;
             return this;
         }
@@ -160,6 +167,11 @@ public final class CollectionItem {
 
         public Builder withPrivateInfo(PrivateInfo privateInfo) {
             this.privateInfo = privateInfo;
+            return this;
+        }
+
+        public Builder withComment(String comment) {
+            this.comment = comment;
             return this;
         }
 

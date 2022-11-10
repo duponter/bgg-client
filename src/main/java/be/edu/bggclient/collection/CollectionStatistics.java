@@ -1,22 +1,22 @@
 package be.edu.bggclient.collection;
 
-public final class Statistics {
+public final class CollectionStatistics {
     private final String minPlayerCount;
     private final String maxPlayerCount;
     private final String minPlayTime;
     private final String maxPlayTime;
     private final String playingTime;
     private final int ownCount;
-    private final Ratings ratings;
+    private final Rating rating;
 
-    private Statistics(Builder builder) {
+    private CollectionStatistics(Builder builder) {
         this.minPlayerCount = builder.minPlayerCount;
         this.maxPlayerCount = builder.maxPlayerCount;
         this.minPlayTime = builder.minPlayTime;
         this.maxPlayTime = builder.maxPlayTime;
         this.playingTime = builder.playingTime;
         this.ownCount = builder.ownCount;
-        this.ratings = builder.ratings;
+        this.rating = builder.rating;
     }
 
     public String getMinPlayerCount() {
@@ -43,8 +43,8 @@ public final class Statistics {
         return ownCount;
     }
 
-    public Ratings getRatings() {
-        return ratings;
+    public Rating getRating() {
+        return rating;
     }
 
     public static final class Builder {
@@ -54,7 +54,7 @@ public final class Statistics {
         private String maxPlayTime;
         private String playingTime;
         private int ownCount;
-        private Ratings ratings;
+        private Rating rating;
 
         public Builder withMinPlayerCount(String minPlayerCount) {
             this.minPlayerCount = minPlayerCount;
@@ -86,13 +86,13 @@ public final class Statistics {
             return this;
         }
 
-        public Builder withRatings(Ratings ratings) {
-            this.ratings = ratings;
+        public Builder withRating(Rating rating) {
+            this.rating = rating;
             return this;
         }
 
-        public Statistics build() {
-            return new Statistics(this);
+        public CollectionStatistics build() {
+            return new CollectionStatistics(this);
         }
     }
 }

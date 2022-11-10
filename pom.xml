@@ -17,6 +17,7 @@
         <maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
         <argLine>
             --add-opens java.base/java.time=ALL-UNNAMED
+            --add-opens be.edu.bgg.client/be.edu.bggclient.collection=ALL-UNNAMED
             --add-opens be.edu.bgg.client/be.edu.bggclient.geeklist=ALL-UNNAMED
             --add-opens be.edu.bgg.client/be.edu.bggclient.play=ALL-UNNAMED
         </argLine>

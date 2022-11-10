@@ -5,8 +5,8 @@ public final class Rank {
     private final String id;
     private final String name;
     private final String friendlyName;
-    private final int value;
-    private final double bayesianAverage;
+    private final String value;
+    private final String bayesianAverage;
 
     private Rank(Builder builder) {
         this.type = builder.type;
@@ -33,11 +33,11 @@ public final class Rank {
         return friendlyName;
     }
 
-    public int getValue() {
+    public String getValue() {
         return value;
     }
 
-    public double getBayesianAverage() {
+    public String getBayesianAverage() {
         return bayesianAverage;
     }
 
@@ -46,8 +46,8 @@ public final class Rank {
         private String id;
         private String name;
         private String friendlyName;
-        private int value;
-        private double bayesianAverage;
+        private String value;
+        private String bayesianAverage;
 
         public Builder withType(String type) {
             this.type = type;
@@ -69,12 +69,12 @@ public final class Rank {
             return this;
         }
 
-        public Builder withValue(int value) {
+        public Builder withValue(String value) {
             this.value = value;
             return this;
         }
 
-        public Builder withBayesianAverage(double bayesianAverage) {
+        public Builder withBayesianAverage(String bayesianAverage) {
             this.bayesianAverage = bayesianAverage;
             return this;
         }

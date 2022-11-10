@@ -20,7 +20,7 @@ public final class Thing {
     private final Poll<SuggestedPlayerAgeResult> suggestedPlayerAge;
     private final Poll<LanguageDependenceResult> languageDependence;
     private final List<Link> links;
-    private final Statistics statistics;
+    private final ThingStatistics statistics;
 
     private Thing(Builder builder) {
         this.type = builder.type;
@@ -111,7 +111,7 @@ public final class Thing {
         return links;
     }
 
-    public Statistics getStatistics() {
+    public ThingStatistics getStatistics() {
         return statistics;
     }
 
@@ -133,7 +133,7 @@ public final class Thing {
         private Poll<SuggestedPlayerAgeResult> suggestedPlayerAge;
         private Poll<LanguageDependenceResult> languageDependence;
         private List<Link> links;
-        private Statistics statistics;
+        private ThingStatistics statistics;
 
         public Builder withType(String type) {
             this.type = type;
@@ -220,7 +220,7 @@ public final class Thing {
             return this;
         }
 
-        public Builder withStatistics(Statistics statistics) {
+        public Builder withStatistics(ThingStatistics statistics) {
             this.statistics = statistics;
             return this;
         }

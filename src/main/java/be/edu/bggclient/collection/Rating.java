@@ -2,18 +2,22 @@ package be.edu.bggclient.collection;
 
 import java.util.List;
 
-public final class Ratings {
+public final class Rating {
     private final String userRating;
     private final int ratingCount;
+    private final double average;
     private final double bayesianAverage;
     private final double standardDeviation;
+    private final double median;
     private final List<Rank> ranks;
 
-    private Ratings(Builder builder) {
+    private Rating(Builder builder) {
         this.userRating = builder.userRating;
         this.ratingCount = builder.ratingCount;
+        this.average = builder.average;
         this.bayesianAverage = builder.bayesianAverage;
         this.standardDeviation = builder.standardDeviation;
+        this.median = builder.median;
         this.ranks = List.copyOf(builder.ranks);
     }
 
@@ -25,12 +29,20 @@ public final class Ratings {
         return ratingCount;
     }
 
+    public double getAverage() {
+        return average;
+    }
+
     public double getBayesianAverage() {
         return bayesianAverage;
     }
 
     public double getStandardDeviation() {
         return standardDeviation;
+    }
+
+    public double getMedian() {
+        return median;
     }
 
     public List<Rank> getRanks() {
@@ -40,8 +52,10 @@ public final class Ratings {
     public static final class Builder {
         private String userRating;
         private int ratingCount;
+        private double average;
         private double bayesianAverage;
         private double standardDeviation;
+        private double median;
         private List<Rank> ranks;
 
         public Builder withUserRating(String userRating) {
@@ -51,6 +65,11 @@ public final class Ratings {
 
         public Builder withRatingCount(int ratingCount) {
             this.ratingCount = ratingCount;
+            return this;
+        }
+
+        public Builder withAverage(double average) {
+            this.average = average;
             return this;
         }
 
@@ -64,13 +83,18 @@ public final class Ratings {
             return this;
         }
 
+        public Builder withMedian(double median) {
+            this.median = median;
+            return this;
+        }
+
         public Builder withRanks(List<Rank> ranks) {
             this.ranks = ranks;
             return this;
         }
 
-        public Ratings build() {
-            return new Ratings(this);
+        public Rating build() {
+            return new Rating(this);
         }
     }
 }

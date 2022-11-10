@@ -29,7 +29,7 @@ class GeeklistXmlNodeTest {
         Node xmlNode = readGeeklistXml();
 
         String prettyPrint = XmlPrinter.prettyPrint(toXmlNode(new GeeklistXmlNode(xmlNode).build()));
-        String cleanedXml = new XslStylesheet("/be/edu/bggclient/internal/geeklist/geeklist-xml-cleanup.xsl").apply(xmlNode);
+        String cleanedXml = new XslStylesheet(GeeklistXmlNodeTest.class, "geeklist-xml-cleanup.xsl").apply(xmlNode);
         assertThat(prettyPrint).isEqualToIgnoringWhitespace(cleanedXml);
     }
 

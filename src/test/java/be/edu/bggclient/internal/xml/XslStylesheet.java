@@ -19,9 +19,11 @@ public class XslStylesheet {
     private static final String XML_DECLARATION = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
     private static final String XSL_DIRECTIVE = "<?xml-stylesheet version=\"2.0\" type=\"text/xsl\" href=\"%s\"?>";
 
+    private final Class<?> baseClass;
     private final String location;
 
-    public XslStylesheet(String location) {
+    public XslStylesheet(Class<?> baseClass, String location) {
+        this.baseClass = baseClass;
         this.location = location;
     }
 
@@ -30,15 +32,15 @@ public class XslStylesheet {
                 System.lineSeparator(),
                 XML_DECLARATION,
                 String.format(XSL_DIRECTIVE, location),
-                xml.replace(XML_DECLARATION, "")
+                xml.replace(XML_DECLARATION, "").trim()
         );
     }
 
     public String read() {
-        try (InputStream inputStream = XslStylesheet.class.getResourceAsStream(this.location)) {
+        try (InputStream inputStream = this.baseClass.getResourceAsStream(this.location)) {
             return new String(Objects.requireNonNull(inputStream).readAllBytes(), StandardCharsets.UTF_8);
-        } catch (IOException e) {
-            throw new IllegalStateException("Unable to read Xsl Stylesheet " + this.location, e);
+        } catch (IOException ioe) {
+            throw new IllegalStateException(String.format("Unable to read Xsl Stylesheet %s from base %s", this.location, this.baseClass), ioe);
         }
     }
 
@@ -47,14 +49,15 @@ public class XslStylesheet {
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
 
-        try (InputStream inputStream = XslStylesheet.class.getResourceAsStream(this.location)) {
+        StringWriter stringWriter = new StringWriter();
+        try (InputStream inputStream = this.baseClass.getResourceAsStream(this.location)) {
             Transformer transformer = factory.newTransformer(new StreamSource(inputStream));
-            StringWriter stringWriter = new StringWriter();
             transformer.transform(new DOMSource(node), new StreamResult(stringWriter));
-            return stringWriter.toString();
-        } catch (TransformerException | IOException e) {
-            e.printStackTrace();
-            throw new IllegalStateException(e);
+        } catch (IOException ioe) {
+            throw new IllegalStateException(String.format("Unable to read Xsl Stylesheet %s from base %s", this.location, this.baseClass), ioe);
+        } catch (TransformerException te) {
+            throw new IllegalStateException("Unable to transform node " + node, te);
         }
+        return stringWriter.toString();
     }
 }

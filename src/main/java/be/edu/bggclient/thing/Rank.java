@@ -1,4 +1,4 @@
-package be.edu.bggclient.collection;
+package be.edu.bggclient.thing;
 
 public final class Rank {
     private final String type;

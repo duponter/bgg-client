@@ -1,4 +1,4 @@
-package be.edu.bggclient.internal.collection;
+package be.edu.bggclient.internal.thing;
 
 import be.edu.bggclient.internal.Builder;
 import be.edu.bggclient.internal.xml.XmlNode;

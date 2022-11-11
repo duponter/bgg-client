@@ -2,6 +2,8 @@ package be.edu.bggclient.collection;
 
 import java.util.List;
 
+import be.edu.bggclient.thing.Rank;
+
 public final class Rating {
     private final String userRating;
     private final int ratingCount;

@@ -5,8 +5,8 @@ import java.util.List;
 public final class Thing {
     private final String type;
     private final String id;
-    private final String imageUrl;
     private final String thumbnailUrl;
+    private final String imageUrl;
     private final List<Name> names;
     private final String description;
     private final int yearPublished;
@@ -25,8 +25,8 @@ public final class Thing {
     private Thing(Builder builder) {
         this.type = builder.type;
         this.id = builder.id;
-        this.imageUrl = builder.imageUrl;
         this.thumbnailUrl = builder.thumbnailUrl;
+        this.imageUrl = builder.imageUrl;
         this.names = List.copyOf(builder.names);
         this.description = builder.description;
         this.yearPublished = builder.yearPublished;
@@ -51,12 +51,12 @@ public final class Thing {
         return id;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
     public String getThumbnailUrl() {
         return thumbnailUrl;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
     }
 
     public List<Name> getNames() {
@@ -118,8 +118,8 @@ public final class Thing {
     public static final class Builder {
         private String type;
         private String id;
-        private String imageUrl;
         private String thumbnailUrl;
+        private String imageUrl;
         private List<Name> names;
         private String description;
         private int yearPublished;
@@ -145,13 +145,13 @@ public final class Thing {
             return this;
         }
 
-        public Builder withImageUrl(String imageUrl) {
-            this.imageUrl = imageUrl;
+        public Builder withThumbnailUrl(String thumbnailUrl) {
+            this.thumbnailUrl = thumbnailUrl;
             return this;
         }
 
-        public Builder withThumbnailUrl(String thumbnailUrl) {
-            this.thumbnailUrl = thumbnailUrl;
+        public Builder withImageUrl(String imageUrl) {
+            this.imageUrl = imageUrl;
             return this;
         }
 

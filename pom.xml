@@ -20,6 +20,7 @@
             --add-opens be.edu.bgg.client/be.edu.bggclient.collection=ALL-UNNAMED
             --add-opens be.edu.bgg.client/be.edu.bggclient.geeklist=ALL-UNNAMED
             --add-opens be.edu.bgg.client/be.edu.bggclient.play=ALL-UNNAMED
+            --add-opens be.edu.bgg.client/be.edu.bggclient.thing=ALL-UNNAMED
         </argLine>
 
         <junit-jupiter.version>5.9.1</junit-jupiter.version>

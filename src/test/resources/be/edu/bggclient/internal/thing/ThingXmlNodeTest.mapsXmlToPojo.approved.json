@@ -1,0 +1,185 @@
+{
+  "type": "boardgame",
+  "id": "284378",
+  "thumbnailUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__thumb/img/RQunBacBw949DkYBgzoS5YaXgJo\u003d/fit-in/200x150/filters:strip_icc()/pic4924232.jpg",
+  "imageUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__original/img/Htra4hvxjBlejtNEIUns_B3CNNc\u003d/0x0/filters:format(jpeg)/pic4924232.jpg",
+  "names": [],
+  "description": "Electric vehicles (EVs) have become more common since 2014 and are the future of the automobile industry. They are superior vehicles due to them being more efficient, easier to maintain, cleaner, and cheaper to run. They are computerized machines that use AI to improve safety and in the near future will provide autonomous driving. They receive software upgrades during their lifetime and are constantly improving, unlike their traditional combustion-engine counterparts, which start to become obsolete as soon as you start using them.\u0026#10;\u0026#10;You will be overseeing the production of these vehicles in Kanban EV, with \u0026quot;kanban\u0026quot; (\u0026#231;\u0026#156;\u0026#139;\u0026#230;\u0026#157;\u0026#191;) being the name for a scheduling system that supports an efficient assembly line, just-in-time production, and a smooth workflow process. Over the course of the game, players take on the role of rookie employees who are trying to secure their career. You need to manage suppliers and supplies, improve and innovate automobile parts, and get your hands greasy on the assembly line in order to boost production and impress the factory manager.\u0026#10;\u0026#10;You must make shrewd use of the recycling facilities and the limited factory supplies in order to appropriate parts when the suppliers come up short. Because the factory must run at optimum efficiency, production doesn\u0027t wait for you or for mistakes. Sandra, the factory manager, will review your performance and keep the factory on tempo.\u0026#10;\u0026#10;Kanban EV is a game that focuses on resource and time management that puts you in the driver\u0027s seat of an entire production facility, racing for factory goals and the highest level of promotion. You earn production points (PP) for performing various actions in the game, and the player with the most PP at the end of the game wins.\u0026#10;\u0026#10;\u0026mdash;description from publisher\u0026#10;\u0026#10;Includes solo mode by D\u0026aacute;vid Turczi\u0026#10;\u0026#10;\n        ",
+  "yearPublished": 2020,
+  "minPlayers": "1",
+  "maxPlayers": "4",
+  "suggestedNumberOfPlayers": {
+    "name": "suggested_numplayers",
+    "title": "User Suggested Number of Players",
+    "totalVoteCount": 112,
+    "results": [
+      {
+        "playerCount": "1",
+        "value": "Best",
+        "voteCount": 6
+      },
+      {
+        "playerCount": "1",
+        "value": "Recommended",
+        "voteCount": 46
+      },
+      {
+        "playerCount": "1",
+        "value": "Not Recommended",
+        "voteCount": 17
+      },
+      {
+        "playerCount": "2",
+        "value": "Best",
+        "voteCount": 10
+      },
+      {
+        "playerCount": "2",
+        "value": "Recommended",
+        "voteCount": 61
+      },
+      {
+        "playerCount": "2",
+        "value": "Not Recommended",
+        "voteCount": 10
+      },
+      {
+        "playerCount": "3",
+        "value": "Best",
+        "voteCount": 51
+      },
+      {
+        "playerCount": "3",
+        "value": "Recommended",
+        "voteCount": 21
+      },
+      {
+        "playerCount": "3",
+        "value": "Not Recommended",
+        "voteCount": 4
+      },
+      {
+        "playerCount": "4",
+        "value": "Best",
+        "voteCount": 34
+      },
+      {
+        "playerCount": "4",
+        "value": "Recommended",
+        "voteCount": 36
+      },
+      {
+        "playerCount": "4",
+        "value": "Not Recommended",
+        "voteCount": 3
+      },
+      {
+        "playerCount": "4+",
+        "value": "Best",
+        "voteCount": 0
+      },
+      {
+        "playerCount": "4+",
+        "value": "Recommended",
+        "voteCount": 0
+      },
+      {
+        "playerCount": "4+",
+        "value": "Not Recommended",
+        "voteCount": 37
+      }
+    ]
+  },
+  "playingTime": "180",
+  "minPlayTime": "60",
+  "maxPlayTime": "180",
+  "minAge": "14",
+  "suggestedPlayerAge": {
+    "name": "suggested_playerage",
+    "title": "User Suggested Player Age",
+    "totalVoteCount": 20,
+    "results": [
+      {
+        "value": "2",
+        "voteCount": 0
+      },
+      {
+        "value": "3",
+        "voteCount": 0
+      },
+      {
+        "value": "4",
+        "voteCount": 0
+      },
+      {
+        "value": "5",
+        "voteCount": 0
+      },
+      {
+        "value": "6",
+        "voteCount": 0
+      },
+      {
+        "value": "8",
+        "voteCount": 1
+      },
+      {
+        "value": "10",
+        "voteCount": 1
+      },
+      {
+        "value": "12",
+        "voteCount": 4
+      },
+      {
+        "value": "14",
+        "voteCount": 10
+      },
+      {
+        "value": "16",
+        "voteCount": 4
+      },
+      {
+        "value": "18",
+        "voteCount": 0
+      },
+      {
+        "value": "21 and up",
+        "voteCount": 0
+      }
+    ]
+  },
+  "languageDependence": {
+    "name": "language_dependence",
+    "title": "Language Dependence",
+    "totalVoteCount": 2,
+    "results": [
+      {
+        "level": "1",
+        "value": "No necessary in-game text",
+        "voteCount": 2
+      },
+      {
+        "level": "2",
+        "value": "Some necessary text - easily memorized or small crib sheet",
+        "voteCount": 0
+      },
+      {
+        "level": "3",
+        "value": "Moderate in-game text - needs crib sheet or paste ups",
+        "voteCount": 0
+      },
+      {
+        "level": "4",
+        "value": "Extensive use of text - massive conversion needed to be playable",
+        "voteCount": 0
+      },
+      {
+        "level": "5",
+        "value": "Unplayable in another language",
+        "voteCount": 0
+      }
+    ]
+  },
+  "links": []
+}

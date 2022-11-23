@@ -3,7 +3,6 @@ package be.edu.bggclient.internal.thing;
 import java.util.stream.Collectors;
 
 import be.edu.bggclient.internal.Builder;
-import be.edu.bggclient.internal.collection.RankXmlNode;
 import be.edu.bggclient.internal.xml.XmlNode;
 import be.edu.bggclient.thing.ThingStatistics;
 import org.w3c.dom.Node;

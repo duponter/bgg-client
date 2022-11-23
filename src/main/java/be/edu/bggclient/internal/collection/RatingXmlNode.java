@@ -4,6 +4,7 @@ import java.util.stream.Collectors;
 
 import be.edu.bggclient.collection.Rating;
 import be.edu.bggclient.internal.Builder;
+import be.edu.bggclient.internal.thing.RankXmlNode;
 import be.edu.bggclient.internal.xml.XmlNode;
 import org.w3c.dom.Node;
 

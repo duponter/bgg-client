@@ -3,7 +3,28 @@
   "id": "284378",
   "thumbnailUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__thumb/img/RQunBacBw949DkYBgzoS5YaXgJo\u003d/fit-in/200x150/filters:strip_icc()/pic4924232.jpg",
   "imageUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__original/img/Htra4hvxjBlejtNEIUns_B3CNNc\u003d/0x0/filters:format(jpeg)/pic4924232.jpg",
-  "names": [],
+  "names": [
+    {
+      "type": "primary",
+      "sortIndex": 1,
+      "value": "Kanban EV"
+    },
+    {
+      "type": "alternate",
+      "sortIndex": 1,
+      "value": "Канбан: Электро Русская версия"
+    },
+    {
+      "type": "alternate",
+      "sortIndex": 1,
+      "value": "カンバンEV"
+    },
+    {
+      "type": "alternate",
+      "sortIndex": 1,
+      "value": "칸반 EV"
+    }
+  ],
   "description": "Electric vehicles (EVs) have become more common since 2014 and are the future of the automobile industry. They are superior vehicles due to them being more efficient, easier to maintain, cleaner, and cheaper to run. They are computerized machines that use AI to improve safety and in the near future will provide autonomous driving. They receive software upgrades during their lifetime and are constantly improving, unlike their traditional combustion-engine counterparts, which start to become obsolete as soon as you start using them.\u0026#10;\u0026#10;You will be overseeing the production of these vehicles in Kanban EV, with \u0026quot;kanban\u0026quot; (\u0026#231;\u0026#156;\u0026#139;\u0026#230;\u0026#157;\u0026#191;) being the name for a scheduling system that supports an efficient assembly line, just-in-time production, and a smooth workflow process. Over the course of the game, players take on the role of rookie employees who are trying to secure their career. You need to manage suppliers and supplies, improve and innovate automobile parts, and get your hands greasy on the assembly line in order to boost production and impress the factory manager.\u0026#10;\u0026#10;You must make shrewd use of the recycling facilities and the limited factory supplies in order to appropriate parts when the suppliers come up short. Because the factory must run at optimum efficiency, production doesn\u0027t wait for you or for mistakes. Sandra, the factory manager, will review your performance and keep the factory on tempo.\u0026#10;\u0026#10;Kanban EV is a game that focuses on resource and time management that puts you in the driver\u0027s seat of an entire production facility, racing for factory goals and the highest level of promotion. You earn production points (PP) for performing various actions in the game, and the player with the most PP at the end of the game wins.\u0026#10;\u0026#10;\u0026mdash;description from publisher\u0026#10;\u0026#10;Includes solo mode by D\u0026aacute;vid Turczi\u0026#10;\u0026#10;\n        ",
   "yearPublished": 2020,
   "minPlayers": "1",
@@ -181,7 +202,138 @@
       }
     ]
   },
-  "links": [],
+  "links": [
+    {
+      "type": "boardgamecategory",
+      "id": "1021",
+      "value": "Economic"
+    },
+    {
+      "type": "boardgamecategory",
+      "id": "1088",
+      "value": "Industry / Manufacturing"
+    },
+    {
+      "type": "boardgamemechanic",
+      "id": "2001",
+      "value": "Action Points"
+    },
+    {
+      "type": "boardgamemechanic",
+      "id": "2040",
+      "value": "Hand Management"
+    },
+    {
+      "type": "boardgamemechanic",
+      "id": "2079",
+      "value": "Variable Phase Order"
+    },
+    {
+      "type": "boardgamemechanic",
+      "id": "2082",
+      "value": "Worker Placement"
+    },
+    {
+      "type": "boardgamefamily",
+      "id": "8374",
+      "value": "Crowdfunding: Kickstarter"
+    },
+    {
+      "type": "boardgamefamily",
+      "id": "21991",
+      "value": "Theme: Automotive Industry"
+    },
+    {
+      "type": "boardgameexpansion",
+      "id": "321238",
+      "value": "Kanban EV: Upgrade Pack"
+    },
+    {
+      "type": "boardgameimplementation",
+      "id": "109276",
+      "value": "Kanban: Driver\u0027s Edition"
+    },
+    {
+      "type": "boardgamedesigner",
+      "id": "12396",
+      "value": "Vital Lacerda"
+    },
+    {
+      "type": "boardgameartist",
+      "id": "64844",
+      "value": "Ian O\u0027Toole"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "597",
+      "value": "Eagle-Gryphon Games"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "3475",
+      "value": "Arclight Games"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "6194",
+      "value": "Delta Vision Publishing"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "44140",
+      "value": "Editions Philibert"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "45134",
+      "value": "Geekach Games"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "8820",
+      "value": "Gém Klub Kft."
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "7251",
+      "value": "Giochix.it"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "10562",
+      "value": "hobbity.eu"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "8291",
+      "value": "Korea Boardgames Co., Ltd."
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "34801",
+      "value": "Lavka Games"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "30677",
+      "value": "Maldito Games"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "40058",
+      "value": "Skellig Games"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "41423",
+      "value": "TLAMA games"
+    },
+    {
+      "type": "boardgamepublisher",
+      "id": "8147",
+      "value": "YOKA Games"
+    }
+  ],
   "statistics": {
     "ratingCount": 4661,
     "average": 8.5112,

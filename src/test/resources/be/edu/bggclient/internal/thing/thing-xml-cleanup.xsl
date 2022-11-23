@@ -8,7 +8,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="@termsofuse | name | link | @page">
+    <xsl:template match="@termsofuse | @page">
     </xsl:template>
 
     <xsl:template match="items">
@@ -19,6 +19,15 @@
         <xsl:copy>
             <xsl:apply-templates select="@type"/>
             <xsl:apply-templates select="@id"/>
+            <xsl:apply-templates select="*"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="name">
+        <xsl:copy>
+            <xsl:apply-templates select="@type"/>
+            <xsl:apply-templates select="@sortindex"/>
+            <xsl:apply-templates select="@value"/>
             <xsl:apply-templates select="*"/>
         </xsl:copy>
     </xsl:template>
@@ -57,6 +66,15 @@
             <xsl:apply-templates select="@level"/>
             <xsl:apply-templates select="@value"/>
             <xsl:apply-templates select="@numvotes"/>
+            <xsl:apply-templates select="*"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="link">
+        <xsl:copy>
+            <xsl:apply-templates select="@type"/>
+            <xsl:apply-templates select="@id"/>
+            <xsl:apply-templates select="@value"/>
             <xsl:apply-templates select="*"/>
         </xsl:copy>
     </xsl:template>

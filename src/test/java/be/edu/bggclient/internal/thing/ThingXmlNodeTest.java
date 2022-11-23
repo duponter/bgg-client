@@ -9,6 +9,8 @@ import be.edu.bggclient.internal.xml.XmlInput;
 import be.edu.bggclient.internal.xml.XmlNode;
 import be.edu.bggclient.internal.xml.XslStylesheet;
 import be.edu.bggclient.thing.LanguageDependenceResult;
+import be.edu.bggclient.thing.Link;
+import be.edu.bggclient.thing.Name;
 import be.edu.bggclient.thing.Poll;
 import be.edu.bggclient.thing.Rank;
 import be.edu.bggclient.thing.SuggestedPlayerAgeResult;
@@ -54,6 +56,7 @@ class ThingXmlNodeTest {
         thingNode.addAttribute("id", XmlFormatter.format(thing.getId()));
         thingNode.addElement("thumbnail").addText(XmlFormatter.format(thing.getThumbnailUrl()));
         thingNode.addElement("image").addText(XmlFormatter.format(thing.getImageUrl()));
+        thing.getNames().forEach(name -> thingNode.add(toXmlNode(name)));
         thingNode.addElement("description").addText(XmlFormatter.format(thing.getDescription()));
         thingNode.addElement("yearpublished").addAttribute("value", XmlFormatter.format(thing.getYearPublished()));
         thingNode.addElement("minplayers").addAttribute("value", XmlFormatter.format(thing.getMinPlayers()));
@@ -79,11 +82,20 @@ class ThingXmlNodeTest {
         thing.getLanguageDependence().getResults().forEach(result -> languageDependenceResultsNode.add(toXmlNode(result)));
         thingNode.add(languageDependenceNode);
 
+        thing.getLinks().forEach(link -> thingNode.add(toXmlNode(link)));
         if (thing.getStatistics() != null) {
             thingNode.add(toXmlNode(thing.getStatistics()));
         }
 
         return thingNode;
+    }
+
+    private Element toXmlNode(Name name) {
+        Element nameNode = DocumentHelper.createElement("name");
+        nameNode.addAttribute("type", XmlFormatter.format(name.getType()));
+        nameNode.addAttribute("sortindex", XmlFormatter.format(name.getSortIndex()));
+        nameNode.addAttribute("value", XmlFormatter.format(name.getValue()));
+        return nameNode;
     }
 
     private Element toXmlNode(Poll<?> poll) {
@@ -115,6 +127,14 @@ class ThingXmlNodeTest {
         resultNode.addAttribute("value", XmlFormatter.format(result.getValue()));
         resultNode.addAttribute("numvotes", XmlFormatter.format(result.getVoteCount()));
         return resultNode;
+    }
+
+    private Element toXmlNode(Link link) {
+        Element linkNode = DocumentHelper.createElement("link");
+        linkNode.addAttribute("type", XmlFormatter.format(link.getType()));
+        linkNode.addAttribute("id", XmlFormatter.format(link.getId()));
+        linkNode.addAttribute("value", XmlFormatter.format(link.getValue()));
+        return linkNode;
     }
 
     private Element toXmlNode(ThingStatistics statistics) {

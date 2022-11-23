@@ -1,6 +1,6 @@
 package be.edu.bggclient.internal.thing;
 
-import java.util.List;
+import java.util.stream.Collectors;
 
 import be.edu.bggclient.internal.Builder;
 import be.edu.bggclient.internal.xml.XmlNode;
@@ -19,11 +19,11 @@ public class ThingXmlNode extends XmlNode implements Builder<Thing> {
                 .withId(this.string("@id"))
                 .withThumbnailUrl(this.string("thumbnail"))
                 .withImageUrl(this.string("image"))
-                .withNames(List.of()
-//                        this.nodes("name")
-//                                .map(NameXmlNode::new)
-//                                .map(Builder::build)
-//                                .collect(Collectors.toList())
+                .withNames(
+                        this.nodes("name")
+                                .map(NameXmlNode::new)
+                                .map(Builder::build)
+                                .collect(Collectors.toList())
                 )
                 .withDescription(this.string("description"))
                 .withYearPublished(this.numericValueAttribute("yearpublished").intValue())
@@ -51,11 +51,11 @@ public class ThingXmlNode extends XmlNode implements Builder<Thing> {
                                 .map(PollXmlNode::buildLanguageDependencePoll)
                                 .findFirst().orElse(null)
                 )
-                .withLinks(List.of()
-//                        this.nodes("link")
-//                                .map(LinkXmlNode::new)
-//                                .map(Builder::build)
-//                                .collect(Collectors.toList())
+                .withLinks(
+                        this.nodes("link")
+                                .map(LinkXmlNode::new)
+                                .map(Builder::build)
+                                .collect(Collectors.toList())
                 )
                 .withStatistics(
                         this.nodes("statistics/ratings")

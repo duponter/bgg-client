@@ -1,369 +1,1541 @@
-{
-  "type": "boardgame",
-  "id": "284378",
-  "thumbnailUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__thumb/img/RQunBacBw949DkYBgzoS5YaXgJo\u003d/fit-in/200x150/filters:strip_icc()/pic4924232.jpg",
-  "imageUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__original/img/Htra4hvxjBlejtNEIUns_B3CNNc\u003d/0x0/filters:format(jpeg)/pic4924232.jpg",
-  "names": [
-    {
-      "type": "primary",
-      "sortIndex": 1,
-      "value": "Kanban EV"
-    },
-    {
-      "type": "alternate",
-      "sortIndex": 1,
-      "value": "Канбан: Электро Русская версия"
-    },
-    {
-      "type": "alternate",
-      "sortIndex": 1,
-      "value": "カンバンEV"
-    },
-    {
-      "type": "alternate",
-      "sortIndex": 1,
-      "value": "칸반 EV"
-    }
-  ],
-  "description": "Electric vehicles (EVs) have become more common since 2014 and are the future of the automobile industry. They are superior vehicles due to them being more efficient, easier to maintain, cleaner, and cheaper to run. They are computerized machines that use AI to improve safety and in the near future will provide autonomous driving. They receive software upgrades during their lifetime and are constantly improving, unlike their traditional combustion-engine counterparts, which start to become obsolete as soon as you start using them.\u0026#10;\u0026#10;You will be overseeing the production of these vehicles in Kanban EV, with \u0026quot;kanban\u0026quot; (\u0026#231;\u0026#156;\u0026#139;\u0026#230;\u0026#157;\u0026#191;) being the name for a scheduling system that supports an efficient assembly line, just-in-time production, and a smooth workflow process. Over the course of the game, players take on the role of rookie employees who are trying to secure their career. You need to manage suppliers and supplies, improve and innovate automobile parts, and get your hands greasy on the assembly line in order to boost production and impress the factory manager.\u0026#10;\u0026#10;You must make shrewd use of the recycling facilities and the limited factory supplies in order to appropriate parts when the suppliers come up short. Because the factory must run at optimum efficiency, production doesn\u0027t wait for you or for mistakes. Sandra, the factory manager, will review your performance and keep the factory on tempo.\u0026#10;\u0026#10;Kanban EV is a game that focuses on resource and time management that puts you in the driver\u0027s seat of an entire production facility, racing for factory goals and the highest level of promotion. You earn production points (PP) for performing various actions in the game, and the player with the most PP at the end of the game wins.\u0026#10;\u0026#10;\u0026mdash;description from publisher\u0026#10;\u0026#10;Includes solo mode by D\u0026aacute;vid Turczi\u0026#10;\u0026#10;\n        ",
-  "yearPublished": 2020,
-  "minPlayers": "1",
-  "maxPlayers": "4",
-  "suggestedNumberOfPlayers": {
-    "name": "suggested_numplayers",
-    "title": "User Suggested Number of Players",
-    "totalVoteCount": 112,
-    "results": [
+[
+  {
+    "type": "boardgame",
+    "id": "284378",
+    "thumbnailUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__thumb/img/RQunBacBw949DkYBgzoS5YaXgJo\u003d/fit-in/200x150/filters:strip_icc()/pic4924232.jpg",
+    "imageUrl": "https://cf.geekdo-images.com/L2Wn-zUqkcHgqvwvY212Ig__original/img/Htra4hvxjBlejtNEIUns_B3CNNc\u003d/0x0/filters:format(jpeg)/pic4924232.jpg",
+    "names": [
       {
-        "playerCount": "1",
-        "value": "Best",
-        "voteCount": 6
+        "type": "primary",
+        "sortIndex": 1,
+        "value": "Kanban EV"
       },
       {
-        "playerCount": "1",
-        "value": "Recommended",
-        "voteCount": 46
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Канбан: Электро Русская версия"
       },
       {
-        "playerCount": "1",
-        "value": "Not Recommended",
-        "voteCount": 17
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "カンバンEV"
       },
       {
-        "playerCount": "2",
-        "value": "Best",
-        "voteCount": 10
-      },
-      {
-        "playerCount": "2",
-        "value": "Recommended",
-        "voteCount": 61
-      },
-      {
-        "playerCount": "2",
-        "value": "Not Recommended",
-        "voteCount": 10
-      },
-      {
-        "playerCount": "3",
-        "value": "Best",
-        "voteCount": 51
-      },
-      {
-        "playerCount": "3",
-        "value": "Recommended",
-        "voteCount": 21
-      },
-      {
-        "playerCount": "3",
-        "value": "Not Recommended",
-        "voteCount": 4
-      },
-      {
-        "playerCount": "4",
-        "value": "Best",
-        "voteCount": 34
-      },
-      {
-        "playerCount": "4",
-        "value": "Recommended",
-        "voteCount": 36
-      },
-      {
-        "playerCount": "4",
-        "value": "Not Recommended",
-        "voteCount": 3
-      },
-      {
-        "playerCount": "4+",
-        "value": "Best",
-        "voteCount": 0
-      },
-      {
-        "playerCount": "4+",
-        "value": "Recommended",
-        "voteCount": 0
-      },
-      {
-        "playerCount": "4+",
-        "value": "Not Recommended",
-        "voteCount": 37
-      }
-    ]
-  },
-  "playingTime": "180",
-  "minPlayTime": "60",
-  "maxPlayTime": "180",
-  "minAge": "14",
-  "suggestedPlayerAge": {
-    "name": "suggested_playerage",
-    "title": "User Suggested Player Age",
-    "totalVoteCount": 20,
-    "results": [
-      {
-        "value": "2",
-        "voteCount": 0
-      },
-      {
-        "value": "3",
-        "voteCount": 0
-      },
-      {
-        "value": "4",
-        "voteCount": 0
-      },
-      {
-        "value": "5",
-        "voteCount": 0
-      },
-      {
-        "value": "6",
-        "voteCount": 0
-      },
-      {
-        "value": "8",
-        "voteCount": 1
-      },
-      {
-        "value": "10",
-        "voteCount": 1
-      },
-      {
-        "value": "12",
-        "voteCount": 4
-      },
-      {
-        "value": "14",
-        "voteCount": 10
-      },
-      {
-        "value": "16",
-        "voteCount": 4
-      },
-      {
-        "value": "18",
-        "voteCount": 0
-      },
-      {
-        "value": "21 and up",
-        "voteCount": 0
-      }
-    ]
-  },
-  "languageDependence": {
-    "name": "language_dependence",
-    "title": "Language Dependence",
-    "totalVoteCount": 2,
-    "results": [
-      {
-        "level": "1",
-        "value": "No necessary in-game text",
-        "voteCount": 2
-      },
-      {
-        "level": "2",
-        "value": "Some necessary text - easily memorized or small crib sheet",
-        "voteCount": 0
-      },
-      {
-        "level": "3",
-        "value": "Moderate in-game text - needs crib sheet or paste ups",
-        "voteCount": 0
-      },
-      {
-        "level": "4",
-        "value": "Extensive use of text - massive conversion needed to be playable",
-        "voteCount": 0
-      },
-      {
-        "level": "5",
-        "value": "Unplayable in another language",
-        "voteCount": 0
-      }
-    ]
-  },
-  "links": [
-    {
-      "type": "boardgamecategory",
-      "id": "1021",
-      "value": "Economic"
-    },
-    {
-      "type": "boardgamecategory",
-      "id": "1088",
-      "value": "Industry / Manufacturing"
-    },
-    {
-      "type": "boardgamemechanic",
-      "id": "2001",
-      "value": "Action Points"
-    },
-    {
-      "type": "boardgamemechanic",
-      "id": "2040",
-      "value": "Hand Management"
-    },
-    {
-      "type": "boardgamemechanic",
-      "id": "2079",
-      "value": "Variable Phase Order"
-    },
-    {
-      "type": "boardgamemechanic",
-      "id": "2082",
-      "value": "Worker Placement"
-    },
-    {
-      "type": "boardgamefamily",
-      "id": "8374",
-      "value": "Crowdfunding: Kickstarter"
-    },
-    {
-      "type": "boardgamefamily",
-      "id": "21991",
-      "value": "Theme: Automotive Industry"
-    },
-    {
-      "type": "boardgameexpansion",
-      "id": "321238",
-      "value": "Kanban EV: Upgrade Pack"
-    },
-    {
-      "type": "boardgameimplementation",
-      "id": "109276",
-      "value": "Kanban: Driver\u0027s Edition"
-    },
-    {
-      "type": "boardgamedesigner",
-      "id": "12396",
-      "value": "Vital Lacerda"
-    },
-    {
-      "type": "boardgameartist",
-      "id": "64844",
-      "value": "Ian O\u0027Toole"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "597",
-      "value": "Eagle-Gryphon Games"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "3475",
-      "value": "Arclight Games"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "6194",
-      "value": "Delta Vision Publishing"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "44140",
-      "value": "Editions Philibert"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "45134",
-      "value": "Geekach Games"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "8820",
-      "value": "Gém Klub Kft."
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "7251",
-      "value": "Giochix.it"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "10562",
-      "value": "hobbity.eu"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "8291",
-      "value": "Korea Boardgames Co., Ltd."
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "34801",
-      "value": "Lavka Games"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "30677",
-      "value": "Maldito Games"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "40058",
-      "value": "Skellig Games"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "41423",
-      "value": "TLAMA games"
-    },
-    {
-      "type": "boardgamepublisher",
-      "id": "8147",
-      "value": "YOKA Games"
-    }
-  ],
-  "statistics": {
-    "ratingCount": 4661,
-    "average": 8.5112,
-    "bayesianAverage": 7.62909,
-    "ranks": [
-      {
-        "type": "subtype",
-        "id": "1",
-        "name": "boardgame",
-        "friendlyName": "Board Game Rank",
-        "value": "77",
-        "bayesianAverage": "7.62909"
-      },
-      {
-        "type": "family",
-        "id": "5497",
-        "name": "strategygames",
-        "friendlyName": "Strategy Game Rank",
-        "value": "41",
-        "bayesianAverage": "7.81718"
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "칸반 EV"
       }
     ],
-    "standardDeviation": 1.27603,
-    "median": 0.0,
-    "ownCount": 9370,
-    "tradeCount": 38,
-    "wantCount": 567,
-    "wishCount": 3176,
-    "commentCount": 841,
-    "weightCount": 290,
-    "averageWeight": 4.3448
+    "description": "Electric vehicles (EVs) have become more common since 2014 and are the future of the automobile industry. They are superior vehicles due to them being more efficient, easier to maintain, cleaner, and cheaper to run. They are computerized machines that use AI to improve safety and in the near future will provide autonomous driving. They receive software upgrades during their lifetime and are constantly improving, unlike their traditional combustion-engine counterparts, which start to become obsolete as soon as you start using them.\u0026#10;\u0026#10;You will be overseeing the production of these vehicles in Kanban EV, with \u0026quot;kanban\u0026quot; (\u0026#231;\u0026#156;\u0026#139;\u0026#230;\u0026#157;\u0026#191;) being the name for a scheduling system that supports an efficient assembly line, just-in-time production, and a smooth workflow process. Over the course of the game, players take on the role of rookie employees who are trying to secure their career. You need to manage suppliers and supplies, improve and innovate automobile parts, and get your hands greasy on the assembly line in order to boost production and impress the factory manager.\u0026#10;\u0026#10;You must make shrewd use of the recycling facilities and the limited factory supplies in order to appropriate parts when the suppliers come up short. Because the factory must run at optimum efficiency, production doesn\u0027t wait for you or for mistakes. Sandra, the factory manager, will review your performance and keep the factory on tempo.\u0026#10;\u0026#10;Kanban EV is a game that focuses on resource and time management that puts you in the driver\u0027s seat of an entire production facility, racing for factory goals and the highest level of promotion. You earn production points (PP) for performing various actions in the game, and the player with the most PP at the end of the game wins.\u0026#10;\u0026#10;\u0026mdash;description from publisher\u0026#10;\u0026#10;Includes solo mode by D\u0026aacute;vid Turczi\u0026#10;\u0026#10;\n        ",
+    "yearPublished": 2020,
+    "minPlayers": "1",
+    "maxPlayers": "4",
+    "suggestedNumberOfPlayers": {
+      "name": "suggested_numplayers",
+      "title": "User Suggested Number of Players",
+      "totalVoteCount": 117,
+      "results": [
+        {
+          "playerCount": "1",
+          "value": "Best",
+          "voteCount": 6
+        },
+        {
+          "playerCount": "1",
+          "value": "Recommended",
+          "voteCount": 49
+        },
+        {
+          "playerCount": "1",
+          "value": "Not Recommended",
+          "voteCount": 17
+        },
+        {
+          "playerCount": "2",
+          "value": "Best",
+          "voteCount": 11
+        },
+        {
+          "playerCount": "2",
+          "value": "Recommended",
+          "voteCount": 63
+        },
+        {
+          "playerCount": "2",
+          "value": "Not Recommended",
+          "voteCount": 10
+        },
+        {
+          "playerCount": "3",
+          "value": "Best",
+          "voteCount": 54
+        },
+        {
+          "playerCount": "3",
+          "value": "Recommended",
+          "voteCount": 22
+        },
+        {
+          "playerCount": "3",
+          "value": "Not Recommended",
+          "voteCount": 4
+        },
+        {
+          "playerCount": "4",
+          "value": "Best",
+          "voteCount": 35
+        },
+        {
+          "playerCount": "4",
+          "value": "Recommended",
+          "voteCount": 39
+        },
+        {
+          "playerCount": "4",
+          "value": "Not Recommended",
+          "voteCount": 4
+        },
+        {
+          "playerCount": "4+",
+          "value": "Best",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4+",
+          "value": "Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4+",
+          "value": "Not Recommended",
+          "voteCount": 40
+        }
+      ]
+    },
+    "playingTime": "180",
+    "minPlayTime": "60",
+    "maxPlayTime": "180",
+    "minAge": "14",
+    "suggestedPlayerAge": {
+      "name": "suggested_playerage",
+      "title": "User Suggested Player Age",
+      "totalVoteCount": 21,
+      "results": [
+        {
+          "value": "2",
+          "voteCount": 0
+        },
+        {
+          "value": "3",
+          "voteCount": 0
+        },
+        {
+          "value": "4",
+          "voteCount": 0
+        },
+        {
+          "value": "5",
+          "voteCount": 0
+        },
+        {
+          "value": "6",
+          "voteCount": 0
+        },
+        {
+          "value": "8",
+          "voteCount": 1
+        },
+        {
+          "value": "10",
+          "voteCount": 1
+        },
+        {
+          "value": "12",
+          "voteCount": 4
+        },
+        {
+          "value": "14",
+          "voteCount": 11
+        },
+        {
+          "value": "16",
+          "voteCount": 4
+        },
+        {
+          "value": "18",
+          "voteCount": 0
+        },
+        {
+          "value": "21 and up",
+          "voteCount": 0
+        }
+      ]
+    },
+    "languageDependence": {
+      "name": "language_dependence",
+      "title": "Language Dependence",
+      "totalVoteCount": 2,
+      "results": [
+        {
+          "level": "76",
+          "value": "No necessary in-game text",
+          "voteCount": 2
+        },
+        {
+          "level": "77",
+          "value": "Some necessary text - easily memorized or small crib sheet",
+          "voteCount": 0
+        },
+        {
+          "level": "78",
+          "value": "Moderate in-game text - needs crib sheet or paste ups",
+          "voteCount": 0
+        },
+        {
+          "level": "79",
+          "value": "Extensive use of text - massive conversion needed to be playable",
+          "voteCount": 0
+        },
+        {
+          "level": "80",
+          "value": "Unplayable in another language",
+          "voteCount": 0
+        }
+      ]
+    },
+    "links": [
+      {
+        "type": "boardgamecategory",
+        "id": "1021",
+        "value": "Economic"
+      },
+      {
+        "type": "boardgamecategory",
+        "id": "1088",
+        "value": "Industry / Manufacturing"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2001",
+        "value": "Action Points"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2040",
+        "value": "Hand Management"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2079",
+        "value": "Variable Phase Order"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2082",
+        "value": "Worker Placement"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "8374",
+        "value": "Crowdfunding: Kickstarter"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "21991",
+        "value": "Theme: Automotive Industry"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "321238",
+        "value": "Kanban EV: Upgrade Pack"
+      },
+      {
+        "type": "boardgameimplementation",
+        "id": "109276",
+        "value": "Kanban: Driver\u0027s Edition"
+      },
+      {
+        "type": "boardgamedesigner",
+        "id": "12396",
+        "value": "Vital Lacerda"
+      },
+      {
+        "type": "boardgameartist",
+        "id": "64844",
+        "value": "Ian O\u0027Toole"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "597",
+        "value": "Eagle-Gryphon Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "3475",
+        "value": "Arclight Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "6194",
+        "value": "Delta Vision Publishing"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "44140",
+        "value": "Editions Philibert"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "45134",
+        "value": "Geekach Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "8820",
+        "value": "Gém Klub Kft."
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "7251",
+        "value": "Giochix.it"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "10562",
+        "value": "hobbity.eu"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "8291",
+        "value": "Korea Boardgames Co., Ltd."
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "34801",
+        "value": "Lavka Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "30677",
+        "value": "Maldito Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "40058",
+        "value": "Skellig Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "41423",
+        "value": "TLAMA games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "8147",
+        "value": "YOKA Games"
+      }
+    ],
+    "statistics": {
+      "ratingCount": 4820,
+      "average": 8.50856,
+      "bayesianAverage": 7.63941,
+      "ranks": [
+        {
+          "type": "subtype",
+          "id": "1",
+          "name": "boardgame",
+          "friendlyName": "Board Game Rank",
+          "value": "73",
+          "bayesianAverage": "7.63941"
+        },
+        {
+          "type": "family",
+          "id": "5497",
+          "name": "strategygames",
+          "friendlyName": "Strategy Game Rank",
+          "value": "38",
+          "bayesianAverage": "7.8227"
+        }
+      ],
+      "standardDeviation": 1.27541,
+      "median": 0.0,
+      "ownCount": 9622,
+      "tradeCount": 38,
+      "wantCount": 580,
+      "wishCount": 3324,
+      "commentCount": 863,
+      "weightCount": 300,
+      "averageWeight": 4.3533
+    }
+  },
+  {
+    "type": "boardgame",
+    "id": "316554",
+    "thumbnailUrl": "https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__thumb/img/JGgY-nBmkyB8WRp8vcoBLlNMQ5U\u003d/fit-in/200x150/filters:strip_icc()/pic5666597.jpg",
+    "imageUrl": "https://cf.geekdo-images.com/PhjygpWSo-0labGrPBMyyg__original/img/mZzaBAEEJpMlHWWmC0R6Su0OibQ\u003d/0x0/filters:format(jpeg)/pic5666597.jpg",
+    "names": [
+      {
+        "type": "primary",
+        "sortIndex": 1,
+        "value": "Dune: Imperium"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Diuna: Imperium"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Duna: Impérium"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Dűne: Impérium"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Дюна: Імперіум"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Дюна: Империя"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "デューン　砂の惑星　インペリウム"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "듄: 임페리움"
+      }
+    ],
+    "description": "Some important links: The Official FAQ, the Unofficial FAQ, and an Automa (solo and 2p) Overview\u0026#10;\u0026#10;Dune: Imperium is a game that finds inspiration in elements and characters from the Dune legacy, both the new film from Legendary Pictures and the seminal literary series from Frank Herbert, Brian Herbert, and Kevin J. Anderson.\u0026#10;\u0026#10;As a leader of one of the Great Houses of the Landsraad, raise your banner and marshal your forces and spies. War is coming, and at the center of the conflict is Arrakis \u0026ndash; Dune, the desert planet.\u0026#10;\u0026#10;Dune: Imperium uses deck-building to add a hidden-information angle to traditional worker placement.\u0026#10;\u0026#10;You start with a unique leader card, as well as a deck identical to those of your opponents. As you acquire cards and build your deck, your choices will define your strengths and weaknesses. Cards allow you to send your Agents to certain spaces on the game board, so how your deck evolves affects your strategy. You might become more powerful militarily, able to deploy more troops than your opponents. Or you might acquire cards that give you an edge with the four political factions represented in the game: the Emperor, the Spacing Guild, the Bene Gesserit, and the Fremen.\u0026#10;\u0026#10;Unlike many deck-building games, you don\u0026rsquo;t play your entire hand in one turn. Instead, you draw a hand of cards at the start of every round and alternate with other players, taking one Agent turn at a time (playing one card to send one of your Agents to the game board). When it\u0026rsquo;s your turn and you have no more Agents to place, you\u0026rsquo;ll take a Reveal turn, revealing the rest of your cards, which will provide Persuasion and Swords. Persuasion is used to acquire more cards, and Swords help your troops fight for the current round\u0026rsquo;s rewards as shown on the revealed Conflict card.\u0026#10;\u0026#10;Defeat your rivals in combat, shrewdly navigate the political factions, and acquire precious cards. The Spice must flow to lead your House to victory!\u0026#10;\u0026#10;\n        ",
+    "yearPublished": 2020,
+    "minPlayers": "1",
+    "maxPlayers": "4",
+    "suggestedNumberOfPlayers": {
+      "name": "suggested_numplayers",
+      "title": "User Suggested Number of Players",
+      "totalVoteCount": 776,
+      "results": [
+        {
+          "playerCount": "1",
+          "value": "Best",
+          "voteCount": 49
+        },
+        {
+          "playerCount": "1",
+          "value": "Recommended",
+          "voteCount": 306
+        },
+        {
+          "playerCount": "1",
+          "value": "Not Recommended",
+          "voteCount": 165
+        },
+        {
+          "playerCount": "2",
+          "value": "Best",
+          "voteCount": 39
+        },
+        {
+          "playerCount": "2",
+          "value": "Recommended",
+          "voteCount": 398
+        },
+        {
+          "playerCount": "2",
+          "value": "Not Recommended",
+          "voteCount": 147
+        },
+        {
+          "playerCount": "3",
+          "value": "Best",
+          "voteCount": 456
+        },
+        {
+          "playerCount": "3",
+          "value": "Recommended",
+          "voteCount": 183
+        },
+        {
+          "playerCount": "3",
+          "value": "Not Recommended",
+          "voteCount": 7
+        },
+        {
+          "playerCount": "4",
+          "value": "Best",
+          "voteCount": 376
+        },
+        {
+          "playerCount": "4",
+          "value": "Recommended",
+          "voteCount": 217
+        },
+        {
+          "playerCount": "4",
+          "value": "Not Recommended",
+          "voteCount": 34
+        },
+        {
+          "playerCount": "4+",
+          "value": "Best",
+          "voteCount": 1
+        },
+        {
+          "playerCount": "4+",
+          "value": "Recommended",
+          "voteCount": 3
+        },
+        {
+          "playerCount": "4+",
+          "value": "Not Recommended",
+          "voteCount": 283
+        }
+      ]
+    },
+    "playingTime": "120",
+    "minPlayTime": "60",
+    "maxPlayTime": "120",
+    "minAge": "14",
+    "suggestedPlayerAge": {
+      "name": "suggested_playerage",
+      "title": "User Suggested Player Age",
+      "totalVoteCount": 107,
+      "results": [
+        {
+          "value": "2",
+          "voteCount": 0
+        },
+        {
+          "value": "3",
+          "voteCount": 0
+        },
+        {
+          "value": "4",
+          "voteCount": 0
+        },
+        {
+          "value": "5",
+          "voteCount": 0
+        },
+        {
+          "value": "6",
+          "voteCount": 0
+        },
+        {
+          "value": "8",
+          "voteCount": 2
+        },
+        {
+          "value": "10",
+          "voteCount": 37
+        },
+        {
+          "value": "12",
+          "voteCount": 44
+        },
+        {
+          "value": "14",
+          "voteCount": 23
+        },
+        {
+          "value": "16",
+          "voteCount": 0
+        },
+        {
+          "value": "18",
+          "voteCount": 0
+        },
+        {
+          "value": "21 and up",
+          "voteCount": 1
+        }
+      ]
+    },
+    "languageDependence": {
+      "name": "language_dependence",
+      "title": "Language Dependence",
+      "totalVoteCount": 34,
+      "results": [
+        {
+          "level": "106",
+          "value": "No necessary in-game text",
+          "voteCount": 0
+        },
+        {
+          "level": "107",
+          "value": "Some necessary text - easily memorized or small crib sheet",
+          "voteCount": 8
+        },
+        {
+          "level": "108",
+          "value": "Moderate in-game text - needs crib sheet or paste ups",
+          "voteCount": 23
+        },
+        {
+          "level": "109",
+          "value": "Extensive use of text - massive conversion needed to be playable",
+          "voteCount": 2
+        },
+        {
+          "level": "110",
+          "value": "Unplayable in another language",
+          "voteCount": 1
+        }
+      ]
+    },
+    "links": [
+      {
+        "type": "boardgamecategory",
+        "id": "1064",
+        "value": "Movies / TV / Radio theme"
+      },
+      {
+        "type": "boardgamecategory",
+        "id": "1093",
+        "value": "Novel-based"
+      },
+      {
+        "type": "boardgamecategory",
+        "id": "1001",
+        "value": "Political"
+      },
+      {
+        "type": "boardgamecategory",
+        "id": "1016",
+        "value": "Science Fiction"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2857",
+        "value": "Card Play Conflict Resolution"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2664",
+        "value": "Deck, Bag, and Pool Building"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2864",
+        "value": "Force Commitment"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2914",
+        "value": "Increase Value of Unchosen Resources"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2041",
+        "value": "Open Drafting"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2819",
+        "value": "Solo / Solitaire Game"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2686",
+        "value": "Take That"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2828",
+        "value": "Turn Order: Progressive"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2015",
+        "value": "Variable Player Powers"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2082",
+        "value": "Worker Placement"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "5838",
+        "value": "Books: Dune"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "59705",
+        "value": "Misc: LongPack Games"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "5666",
+        "value": "Players: Games with Solitaire Rules"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "368867",
+        "value": "Dire Wolf Game Room"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "343598",
+        "value": "Dune: Imperium – Boundless Ambition Promo Card"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "345692",
+        "value": "Dune: Imperium – Duncan, Loyal Blade"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "367466",
+        "value": "Dune: Imperium – Immortality"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "326431",
+        "value": "Dune: Imperium – Jessica of Arrakis Promo Card"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "374597",
+        "value": "Dune: Imperium – Piter, Genius Advisor Promo Card"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "342031",
+        "value": "Dune: Imperium – Rise of Ix"
+      },
+      {
+        "type": "boardgamedesigner",
+        "id": "92370",
+        "value": "Paul Dennen"
+      },
+      {
+        "type": "boardgameartist",
+        "id": "119957",
+        "value": "Clay Brooks"
+      },
+      {
+        "type": "boardgameartist",
+        "id": "73773",
+        "value": "Raul Ramos"
+      },
+      {
+        "type": "boardgameartist",
+        "id": "31001",
+        "value": "Nate Storm"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "33706",
+        "value": "Dire Wolf"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "3475",
+        "value": "Arclight Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "157",
+        "value": "Asmodee"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "42032",
+        "value": "Asmodee Italia"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "45134",
+        "value": "Geekach Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "34801",
+        "value": "Lavka Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "33626",
+        "value": "Lucky Duck Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "36563",
+        "value": "Reflexshop"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "21053",
+        "value": "REXhry"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "39249",
+        "value": "sternenschimmermeer"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "48648",
+        "value": "YingDi (旅法师营地)"
+      }
+    ],
+    "statistics": {
+      "ratingCount": 26613,
+      "average": 8.35075,
+      "bayesianAverage": 8.09562,
+      "ranks": [
+        {
+          "type": "subtype",
+          "id": "1",
+          "name": "boardgame",
+          "friendlyName": "Board Game Rank",
+          "value": "14",
+          "bayesianAverage": "8.09562"
+        },
+        {
+          "type": "family",
+          "id": "5496",
+          "name": "thematic",
+          "friendlyName": "Thematic Rank",
+          "value": "8",
+          "bayesianAverage": "8.08578"
+        },
+        {
+          "type": "family",
+          "id": "5497",
+          "name": "strategygames",
+          "friendlyName": "Strategy Game Rank",
+          "value": "12",
+          "bayesianAverage": "8.11466"
+        }
+      ],
+      "standardDeviation": 1.25549,
+      "median": 0.0,
+      "ownCount": 38336,
+      "tradeCount": 196,
+      "wantCount": 1140,
+      "wishCount": 10197,
+      "commentCount": 3675,
+      "weightCount": 922,
+      "averageWeight": 3.0043
+    }
+  },
+  {
+    "type": "boardgame",
+    "id": "329500",
+    "thumbnailUrl": "https://cf.geekdo-images.com/ufkAbhulnKJ7uDpi09TXOQ__thumb/img/XBP7p0D1bkzDXkoOuXSiavW26Ig\u003d/fit-in/200x150/filters:strip_icc()/pic7127448.jpg",
+    "imageUrl": "https://cf.geekdo-images.com/ufkAbhulnKJ7uDpi09TXOQ__original/img/hhBc0bcNj9U3t-4trByrjrO8-ro\u003d/0x0/filters:format(jpeg)/pic7127448.jpg",
+    "names": [
+      {
+        "type": "primary",
+        "sortIndex": 1,
+        "value": "Unconscious Mind"
+      }
+    ],
+    "description": "In the early 1900s, the Austrian neurologist Sigmund Freud established a revolutionary theory called psychoanalysis, related to the study of the unconscious mind. As his work took hold, a number of followers were invited to meet at Freud\u0027s apartment every Wednesday afternoon to discuss various ideas about psychology and the meanings of dreams. This group was called the Wednesday Psychological Society. It marked the beginning of the worldwide psychoanalytic movement.\u0026#10;\u0026#10;As a member of this society in Unconscious Mind\u0026mdash;a game that blends worker placement, engine building, action programming, and multiple rondels\u0026mdash;your goal is to master therapeutic techniques, establish a practice, and grow your clientele. By delving into your clients\u0027 dreams\u0026mdash;their unconscious minds\u0026mdash;you can help them reach catharsis and recover from their traumas and layers of grief. As a result, the people you treat will be able to live happier, more productive lives. Alongside that, you can document your discoveries by publishing treatises\u0026mdash;which may later be cited by other researchers\u0026mdash;to advance your scholarly reputation.\u0026#10;\u0026#10;In more detailed gameplay terms: on your turn, you may place speech-bubble-shaped \u0026quot;ideas\u0026quot; to access different action spaces on the meeting table board. Then, depending on which row you chose, you will advance the inkpot on your player board\u0027s rondel a number of steps\u0026mdash;triggering the effects of all the technique tiles in the given line. Besides the meeting table, there is a second board showing central Vienna. You may visit key historic locations on it with your professor meeple\u0026mdash;sometimes meeting up with Freud himself to gain bonus actions (or a potent cup of coffee). Once you have gathered enough insights (the main resources in the game), you may use them to interpret your clients\u0027 dreams. As you work your way from surface-level \u0026quot;manifest\u0026quot; dreams down to deeper \u0026quot;latent\u0026quot; dreams, you can help your clients dispel their grief layers (represented by lifting off transparent cards) and eventually resolve their issues altogether\u0026mdash;unlocking ongoing rule-bending abilities and end-game scoring opportunities. The game has many interconnected systems that flow into each other, making every turn one that results in cascading, chain effects.\u0026#10;\u0026#10;\u0026mdash;description from the publisher\u0026#10;\u0026#10;\n        ",
+    "yearPublished": 2023,
+    "minPlayers": "1",
+    "maxPlayers": "4",
+    "suggestedNumberOfPlayers": {
+      "name": "suggested_numplayers",
+      "title": "User Suggested Number of Players",
+      "totalVoteCount": 3,
+      "results": [
+        {
+          "playerCount": "1",
+          "value": "Best",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "1",
+          "value": "Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "1",
+          "value": "Not Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "2",
+          "value": "Best",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "2",
+          "value": "Recommended",
+          "voteCount": 3
+        },
+        {
+          "playerCount": "2",
+          "value": "Not Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "3",
+          "value": "Best",
+          "voteCount": 2
+        },
+        {
+          "playerCount": "3",
+          "value": "Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "3",
+          "value": "Not Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4",
+          "value": "Best",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4",
+          "value": "Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4",
+          "value": "Not Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4+",
+          "value": "Best",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4+",
+          "value": "Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4+",
+          "value": "Not Recommended",
+          "voteCount": 0
+        }
+      ]
+    },
+    "playingTime": "120",
+    "minPlayTime": "60",
+    "maxPlayTime": "120",
+    "minAge": "12",
+    "suggestedPlayerAge": {
+      "name": "suggested_playerage",
+      "title": "User Suggested Player Age",
+      "totalVoteCount": 0,
+      "results": [
+        {
+          "value": "2",
+          "voteCount": 0
+        },
+        {
+          "value": "3",
+          "voteCount": 0
+        },
+        {
+          "value": "4",
+          "voteCount": 0
+        },
+        {
+          "value": "5",
+          "voteCount": 0
+        },
+        {
+          "value": "6",
+          "voteCount": 0
+        },
+        {
+          "value": "8",
+          "voteCount": 0
+        },
+        {
+          "value": "10",
+          "voteCount": 0
+        },
+        {
+          "value": "12",
+          "voteCount": 0
+        },
+        {
+          "value": "14",
+          "voteCount": 0
+        },
+        {
+          "value": "16",
+          "voteCount": 0
+        },
+        {
+          "value": "18",
+          "voteCount": 0
+        },
+        {
+          "value": "21 and up",
+          "voteCount": 0
+        }
+      ]
+    },
+    "languageDependence": {
+      "name": "language_dependence",
+      "title": "Language Dependence",
+      "totalVoteCount": 1,
+      "results": [
+        {
+          "level": "1",
+          "value": "No necessary in-game text",
+          "voteCount": 1
+        },
+        {
+          "level": "2",
+          "value": "Some necessary text - easily memorized or small crib sheet",
+          "voteCount": 0
+        },
+        {
+          "level": "3",
+          "value": "Moderate in-game text - needs crib sheet or paste ups",
+          "voteCount": 0
+        },
+        {
+          "level": "4",
+          "value": "Extensive use of text - massive conversion needed to be playable",
+          "voteCount": 0
+        },
+        {
+          "level": "5",
+          "value": "Unplayable in another language",
+          "voteCount": 0
+        }
+      ]
+    },
+    "links": [
+      {
+        "type": "boardgamemechanic",
+        "id": "2912",
+        "value": "Contracts"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2875",
+        "value": "End Game Bonuses"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2981",
+        "value": "Melding and Splaying"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2041",
+        "value": "Open Drafting"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2953",
+        "value": "Programmed Movement"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2813",
+        "value": "Rondel"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2004",
+        "value": "Set Collection"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2819",
+        "value": "Solo / Solitaire Game"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "3100",
+        "value": "Tags"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2082",
+        "value": "Worker Placement"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "22184",
+        "value": "Admin: Upcoming Releases"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "18111",
+        "value": "Cities: Vienna (Austria)"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "8374",
+        "value": "Crowdfunding: Kickstarter"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "73596",
+        "value": "Digital Implementations: TableTop Simulator Mod (TTS)"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "60795",
+        "value": "Theme: Dreams / Nightmares"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "65832",
+        "value": "Theme: Psychology"
+      },
+      {
+        "type": "boardgamedesigner",
+        "id": "133501",
+        "value": "Laskas"
+      },
+      {
+        "type": "boardgamedesigner",
+        "id": "69851",
+        "value": "Jonny Pac"
+      },
+      {
+        "type": "boardgamedesigner",
+        "id": "80839",
+        "value": "Yoma"
+      },
+      {
+        "type": "boardgamedesigner",
+        "id": "75672",
+        "value": "Antonio Zax"
+      },
+      {
+        "type": "boardgameartist",
+        "id": "40597",
+        "value": "Andrew Bosley"
+      },
+      {
+        "type": "boardgameartist",
+        "id": "12130",
+        "value": "Vincent Dutrait"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "45228",
+        "value": "Fantasia Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "29895",
+        "value": "Frosted Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "33626",
+        "value": "Lucky Duck Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "30677",
+        "value": "Maldito Games"
+      }
+    ],
+    "statistics": {
+      "ratingCount": 115,
+      "average": 8.11452,
+      "bayesianAverage": 5.61372,
+      "ranks": [
+        {
+          "type": "subtype",
+          "id": "1",
+          "name": "boardgame",
+          "friendlyName": "Board Game Rank",
+          "value": "7247",
+          "bayesianAverage": "5.61372"
+        },
+        {
+          "type": "family",
+          "id": "5497",
+          "name": "strategygames",
+          "friendlyName": "Strategy Game Rank",
+          "value": "2017",
+          "bayesianAverage": "5.65589"
+        }
+      ],
+      "standardDeviation": 1.75046,
+      "median": 0.0,
+      "ownCount": 120,
+      "tradeCount": 0,
+      "wantCount": 209,
+      "wishCount": 2559,
+      "commentCount": 144,
+      "weightCount": 16,
+      "averageWeight": 3.5625
+    }
+  },
+  {
+    "type": "boardgame",
+    "id": "237179",
+    "thumbnailUrl": "https://cf.geekdo-images.com/E8qBDKe39KEFMo-LhTNDQQ__thumb/img/jFQaWbcjoUzxS7p76LsGzg4piQk\u003d/fit-in/200x150/filters:strip_icc()/pic6333980.jpg",
+    "imageUrl": "https://cf.geekdo-images.com/E8qBDKe39KEFMo-LhTNDQQ__original/img/vDkGNR7MpOCxeuJFKs201FpybRU\u003d/0x0/filters:format(jpeg)/pic6333980.jpg",
+    "names": [
+      {
+        "type": "primary",
+        "sortIndex": 1,
+        "value": "Weather Machine"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Időjárásgép"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "Машина погоды"
+      },
+      {
+        "type": "alternate",
+        "sortIndex": 1,
+        "value": "웨더 머신"
+      }
+    ],
+    "description": "\u0026ldquo;Natural disasters will soon be a thing of the past!\u0026rdquo; proclaimed Professor S\u0026ecirc;ni Lativ, Project Chief of Meteorological Manipulation at Lightning Technologies. Tests of his new invention, the Weather Machine, showed positive results. Visions of quelling floods, subduing cyclones, and ending droughts made him smile.\u0026#10;\u0026#10;In Weather Machine, you are scientists on Prof. Lativ\u0026rsquo;s team, tampering with local weather: adjusting rainfall for farms, maintaining wind and clear skies for ecological energy sources, and tweaking the temperature for resorts and sporting events. The prototype is quite effective so far; however, a pattern has emerged, revealing a worrying side effect: Each use of the Weather Machine also alters the conditions elsewhere on the planet \u0026mdash; a \u0026ldquo;butterfly effect\u0026rdquo;.\u0026#10;\u0026#10;\u0026quot;We must build a new prototype,\u0026rdquo; he announces as the agents shoot him sidelong glances; \u0026ldquo;\u0026hellip;but this time we\u0026rsquo;re going to get it right.\u0026rdquo; The agents silently give a single, crisp nod of confirmation. \u0026ldquo;The government is funding this, and we will succeed.\u0026rdquo; As Prof. Lativ explains the plan, the need to secure suppliers for sufficient bots and chemicals is clear. In addition to the materials, time is of the essence; you must be focused and efficient to have any hope of reining this growing global terror, Earth\u0026rsquo;s atmosphere before conditions are too harsh for Homo sapiens and other species.\u0026#10;\u0026#10;History by Nathan Morse\u0026#10;\u0026#10;The Weather Machine game is my fictional vision of what humanity has been doing with the weather during the last 150 years. In short words, we have been playing with the weather, but even with good intentions, by keeping doing it, we have only been making it worse. And at this point, we panic and need to fix this mess we made before it\u0026rsquo;s too late. The funny part is that who manage to find solutions for the monster we create are rewarded for it. \u0026#10;I really think Weather Machine is a unique game. All the mechanisms work on their own in a very particular and original way, but they are all strictly connected to achieve one and only one thing. The fix of the extreme weather. the game altogether is the Weather Machine. I think that is what makes it unique. I can\u0026rsquo;t recall any other worker placement game using these mechanisms and connections.\u0026#10;\u0026#10;\n        ",
+    "yearPublished": 2022,
+    "minPlayers": "1",
+    "maxPlayers": "4",
+    "suggestedNumberOfPlayers": {
+      "name": "suggested_numplayers",
+      "title": "User Suggested Number of Players",
+      "totalVoteCount": 51,
+      "results": [
+        {
+          "playerCount": "1",
+          "value": "Best",
+          "voteCount": 2
+        },
+        {
+          "playerCount": "1",
+          "value": "Recommended",
+          "voteCount": 17
+        },
+        {
+          "playerCount": "1",
+          "value": "Not Recommended",
+          "voteCount": 14
+        },
+        {
+          "playerCount": "2",
+          "value": "Best",
+          "voteCount": 5
+        },
+        {
+          "playerCount": "2",
+          "value": "Recommended",
+          "voteCount": 19
+        },
+        {
+          "playerCount": "2",
+          "value": "Not Recommended",
+          "voteCount": 15
+        },
+        {
+          "playerCount": "3",
+          "value": "Best",
+          "voteCount": 23
+        },
+        {
+          "playerCount": "3",
+          "value": "Recommended",
+          "voteCount": 10
+        },
+        {
+          "playerCount": "3",
+          "value": "Not Recommended",
+          "voteCount": 4
+        },
+        {
+          "playerCount": "4",
+          "value": "Best",
+          "voteCount": 13
+        },
+        {
+          "playerCount": "4",
+          "value": "Recommended",
+          "voteCount": 18
+        },
+        {
+          "playerCount": "4",
+          "value": "Not Recommended",
+          "voteCount": 4
+        },
+        {
+          "playerCount": "4+",
+          "value": "Best",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4+",
+          "value": "Recommended",
+          "voteCount": 0
+        },
+        {
+          "playerCount": "4+",
+          "value": "Not Recommended",
+          "voteCount": 17
+        }
+      ]
+    },
+    "playingTime": "150",
+    "minPlayTime": "60",
+    "maxPlayTime": "150",
+    "minAge": "14",
+    "suggestedPlayerAge": {
+      "name": "suggested_playerage",
+      "title": "User Suggested Player Age",
+      "totalVoteCount": 5,
+      "results": [
+        {
+          "value": "2",
+          "voteCount": 0
+        },
+        {
+          "value": "3",
+          "voteCount": 0
+        },
+        {
+          "value": "4",
+          "voteCount": 0
+        },
+        {
+          "value": "5",
+          "voteCount": 0
+        },
+        {
+          "value": "6",
+          "voteCount": 0
+        },
+        {
+          "value": "8",
+          "voteCount": 0
+        },
+        {
+          "value": "10",
+          "voteCount": 0
+        },
+        {
+          "value": "12",
+          "voteCount": 1
+        },
+        {
+          "value": "14",
+          "voteCount": 4
+        },
+        {
+          "value": "16",
+          "voteCount": 0
+        },
+        {
+          "value": "18",
+          "voteCount": 0
+        },
+        {
+          "value": "21 and up",
+          "voteCount": 0
+        }
+      ]
+    },
+    "languageDependence": {
+      "name": "language_dependence",
+      "title": "Language Dependence",
+      "totalVoteCount": 1,
+      "results": [
+        {
+          "level": "126",
+          "value": "No necessary in-game text",
+          "voteCount": 1
+        },
+        {
+          "level": "127",
+          "value": "Some necessary text - easily memorized or small crib sheet",
+          "voteCount": 0
+        },
+        {
+          "level": "128",
+          "value": "Moderate in-game text - needs crib sheet or paste ups",
+          "voteCount": 0
+        },
+        {
+          "level": "129",
+          "value": "Extensive use of text - massive conversion needed to be playable",
+          "voteCount": 0
+        },
+        {
+          "level": "130",
+          "value": "Unplayable in another language",
+          "voteCount": 0
+        }
+      ]
+    },
+    "links": [
+      {
+        "type": "boardgamecategory",
+        "id": "1016",
+        "value": "Science Fiction"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2001",
+        "value": "Action Points"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2004",
+        "value": "Set Collection"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2002",
+        "value": "Tile Placement"
+      },
+      {
+        "type": "boardgamemechanic",
+        "id": "2082",
+        "value": "Worker Placement"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "22783",
+        "value": "Admin: Better Description Needed!"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "8374",
+        "value": "Crowdfunding: Kickstarter"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "73596",
+        "value": "Digital Implementations: TableTop Simulator Mod (TTS)"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "70948",
+        "value": "Digital Implementations: Tabletopia"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "75454",
+        "value": "Theme: Art style – Art Nouveau"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "22811",
+        "value": "Theme: Climate Change"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "5610",
+        "value": "Theme: Steampunk"
+      },
+      {
+        "type": "boardgamefamily",
+        "id": "28947",
+        "value": "Theme: Weather"
+      },
+      {
+        "type": "boardgameexpansion",
+        "id": "369931",
+        "value": "Weather Machine: Upgrade Pack"
+      },
+      {
+        "type": "boardgamedesigner",
+        "id": "12396",
+        "value": "Vital Lacerda"
+      },
+      {
+        "type": "boardgameartist",
+        "id": "64844",
+        "value": "Ian O\u0027Toole"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "597",
+        "value": "Eagle-Gryphon Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "34522",
+        "value": "CrowD Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "6194",
+        "value": "Delta Vision Publishing"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "8291",
+        "value": "Korea Boardgames Co., Ltd."
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "30677",
+        "value": "Maldito Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "2726",
+        "value": "Portal Games"
+      },
+      {
+        "type": "boardgamepublisher",
+        "id": "41423",
+        "value": "TLAMA games"
+      }
+    ],
+    "statistics": {
+      "ratingCount": 524,
+      "average": 7.96541,
+      "bayesianAverage": 5.9838,
+      "ranks": [
+        {
+          "type": "subtype",
+          "id": "1",
+          "name": "boardgame",
+          "friendlyName": "Board Game Rank",
+          "value": "2745",
+          "bayesianAverage": "5.9838"
+        },
+        {
+          "type": "family",
+          "id": "5497",
+          "name": "strategygames",
+          "friendlyName": "Strategy Game Rank",
+          "value": "1179",
+          "bayesianAverage": "6.13357"
+        }
+      ],
+      "standardDeviation": 1.81469,
+      "median": 0.0,
+      "ownCount": 2153,
+      "tradeCount": 9,
+      "wantCount": 298,
+      "wishCount": 2899,
+      "commentCount": 348,
+      "weightCount": 128,
+      "averageWeight": 4.3984
+    }
   }
-}
+]

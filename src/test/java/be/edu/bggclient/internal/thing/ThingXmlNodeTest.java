@@ -2,6 +2,8 @@ package be.edu.bggclient.internal.thing;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import be.edu.bggclient.internal.XmlPrinter;
 import be.edu.bggclient.internal.xml.XmlFormatter;
@@ -28,23 +30,26 @@ import static org.assertj.core.api.Assertions.assertThat;
 class ThingXmlNodeTest {
     @Test
     void mapsXmlToPojo() {
-        JsonApprovals.verifyAsJson(new ThingXmlNode(readThingXml()).build());
+        JsonApprovals.verifyAsJson(readThingXmls().map(ThingXmlNode::new).map(ThingXmlNode::build).collect(Collectors.toList()));
     }
 
     @Test
     void pojoToXmlMatchesCleanedOriginalXml() {
-        Node xmlNode = readThingXml();
+        assertThat(readThingXmls().collect(Collectors.toList()))
+                .isNotEmpty()
+                .allSatisfy(this::pojoToXmlMatchesCleanedOriginalXml);
+    }
 
+    private void pojoToXmlMatchesCleanedOriginalXml(Node xmlNode) {
         String prettyPrint = XmlPrinter.prettyPrint(toXmlNode(new ThingXmlNode(xmlNode).build()));
         String cleanedXml = new XslStylesheet(ThingXmlNodeTest.class, "thing-xml-cleanup.xsl").apply(xmlNode);
         assertThat(prettyPrint).isEqualToIgnoringWhitespace(cleanedXml);
     }
 
-    private Node readThingXml() {
+    private Stream<Node> readThingXmls() {
         try (InputStream xml = ThingXmlNodeTest.class.getResourceAsStream("thing.xml")) {
             assertThat(xml).isNotNull();
-            // TODO_EDU multiple things at once?
-            return XmlNode.nodes(new XmlInput().read(xml), "//item").findFirst().orElseThrow();
+            return XmlNode.nodes(new XmlInput().read(xml), "//item");
         } catch (IOException ioe) {
             throw new IllegalStateException(ioe);
         }

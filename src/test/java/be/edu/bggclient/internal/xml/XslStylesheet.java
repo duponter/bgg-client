@@ -45,6 +45,8 @@ public class XslStylesheet {
     }
 
     public String apply(Node node) {
+        // TODO_EDU Introduce XmlUnit here: https://github.com/xmlunit/user-guide/wiki/XSLT-Support
+        // https://mvnrepository.com/artifact/org.xmlunit/xmlunit-core
         TransformerFactory factory = TransformerFactory.newInstance();
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");

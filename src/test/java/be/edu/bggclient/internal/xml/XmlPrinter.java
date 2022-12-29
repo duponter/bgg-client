@@ -1,4 +1,4 @@
-package be.edu.bggclient.internal;
+package be.edu.bggclient.internal.xml;
 
 import java.io.IOException;
 import java.io.StringWriter;

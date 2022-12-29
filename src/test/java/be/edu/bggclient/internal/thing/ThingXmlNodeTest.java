@@ -5,10 +5,10 @@ import java.io.InputStream;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import be.edu.bggclient.internal.XmlPrinter;
 import be.edu.bggclient.internal.xml.XmlFormatter;
 import be.edu.bggclient.internal.xml.XmlInput;
 import be.edu.bggclient.internal.xml.XmlNode;
+import be.edu.bggclient.internal.xml.XmlPrinter;
 import be.edu.bggclient.internal.xml.XslStylesheet;
 import be.edu.bggclient.thing.LanguageDependenceResult;
 import be.edu.bggclient.thing.Link;

@@ -25,6 +25,10 @@
             --add-opens be.edu.bgg.client/be.edu.bggclient.thing=ALL-UNNAMED
         </argLine>
 
+        <failsafe.version>3.3.0</failsafe.version>
+        <slf4j-api.version>2.0.6</slf4j-api.version>
+        <logback.version>1.4.5</logback.version>
+
         <junit-jupiter.version>5.9.1</junit-jupiter.version>
         <assertj.version>3.23.1</assertj.version>
         <approvaltests.version>18.5.0</approvaltests.version>
@@ -67,6 +71,22 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>dev.failsafe</groupId>
+            <artifactId>failsafe</artifactId>
+            <version>${failsafe.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j-api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+            <scope>runtime</scope>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>

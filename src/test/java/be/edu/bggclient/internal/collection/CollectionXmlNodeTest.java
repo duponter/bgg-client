@@ -10,7 +10,6 @@ import be.edu.bggclient.collection.PrivateInfo;
 import be.edu.bggclient.collection.Rating;
 import be.edu.bggclient.collection.Status;
 import be.edu.bggclient.internal.xml.XmlFormatter;
-import be.edu.bggclient.internal.xml.XmlInput;
 import be.edu.bggclient.internal.xml.XmlNode;
 import be.edu.bggclient.internal.xml.XmlPrinter;
 import be.edu.bggclient.internal.xml.XslStylesheet;
@@ -20,6 +19,8 @@ import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.junit.jupiter.api.Test;
 import org.w3c.dom.Node;
+import org.xmlunit.builder.Input;
+import org.xmlunit.util.Convert;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -41,7 +42,7 @@ class CollectionXmlNodeTest {
     private Node readCollectionXml() {
         try (InputStream xml = CollectionXmlNodeTest.class.getResourceAsStream("collection.xml")) {
             assertThat(xml).isNotNull();
-            return XmlNode.nodes(new XmlInput().read(xml), "//items").findFirst().orElseThrow();
+            return XmlNode.nodes(Convert.toNode(Input.fromStream(xml).build()), "//items").findFirst().orElseThrow();
         } catch (IOException ioe) {
             throw new IllegalStateException(ioe);
         }

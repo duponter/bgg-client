@@ -6,7 +6,6 @@ import java.io.InputStream;
 import be.edu.bggclient.geeklist.Geeklist;
 import be.edu.bggclient.geeklist.GeeklistItem;
 import be.edu.bggclient.internal.xml.XmlFormatter;
-import be.edu.bggclient.internal.xml.XmlInput;
 import be.edu.bggclient.internal.xml.XmlNode;
 import be.edu.bggclient.internal.xml.XmlPrinter;
 import be.edu.bggclient.internal.xml.XslStylesheet;
@@ -15,6 +14,8 @@ import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.junit.jupiter.api.Test;
 import org.w3c.dom.Node;
+import org.xmlunit.builder.Input;
+import org.xmlunit.util.Convert;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -36,7 +37,7 @@ class GeeklistXmlNodeTest {
     private Node readGeeklistXml() {
         try (InputStream xml = GeeklistXmlNodeTest.class.getResourceAsStream("geeklist.xml")) {
             assertThat(xml).isNotNull();
-            return XmlNode.nodes(new XmlInput().read(xml), "//geeklist").findFirst().orElseThrow();
+            return XmlNode.nodes(Convert.toNode(Input.fromStream(xml).build()), "//geeklist").findFirst().orElseThrow();
         } catch (IOException ioe) {
             throw new IllegalStateException(ioe);
         }

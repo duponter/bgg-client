@@ -1,5 +1,6 @@
 package be.edu.bggclient.internal;
 
+import java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -7,14 +8,18 @@ import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 import java.util.Objects;
 
+import be.edu.bggclient.BggClientError;
+import be.edu.bggclient.BggClientException;
 import be.edu.bggclient.BggRequest;
 import be.edu.bggclient.internal.xml.XmlInput;
 import dev.failsafe.CircuitBreaker;
 import dev.failsafe.Failsafe;
+import dev.failsafe.Fallback;
 import dev.failsafe.RetryPolicy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Node;
+import org.xml.sax.SAXException;
 
 public class BggEndpoint {
     private static final Logger LOGGER = LoggerFactory.getLogger(BggEndpoint.class.getName());
@@ -31,8 +36,12 @@ public class BggEndpoint {
         this.httpClient = Objects.requireNonNull(httpClient);
     }
 
-    public Node asNode(BggRequest request) {
-        return new XmlInput().read(this.send(request, HttpResponse.BodyHandlers.ofInputStream()));
+    public Node asNode(BggRequest request) throws BggClientException {
+        try {
+            return XmlInput.newDocumentBuilder().parse(this.send(request, HttpResponse.BodyHandlers.ofInputStream()));
+        } catch (SAXException | IOException e) {
+            throw new BggClientException(BggClientError.INVALID_XML, e);
+        }
     }
 
     private <T> T send(BggRequest bggRequest, HttpResponse.BodyHandler<T> bodyHandler) {
@@ -65,6 +74,8 @@ public class BggEndpoint {
                 .onHalfOpen(e -> LOGGER.trace("Circuit breaker half-opened"))
                 .build();
 
-        return Failsafe.with(retryPolicy).compose(breaker).get(() -> httpClient.send(request, bodyHandler)).body();
+        Fallback<HttpResponse<T>> fallback = Fallback.ofException(e -> new BggClientException(BggClientError.NO_BGG_RESPONSE, e.getLastException()));
+
+        return Failsafe.with(fallback).compose(retryPolicy).compose(breaker).get(() -> httpClient.send(request, bodyHandler)).body();
     }
 }

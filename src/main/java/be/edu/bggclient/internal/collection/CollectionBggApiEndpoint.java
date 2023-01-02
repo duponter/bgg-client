@@ -1,5 +1,7 @@
 package be.edu.bggclient.internal.collection;
 
+import be.edu.bggclient.BggClientError;
+import be.edu.bggclient.BggClientException;
 import be.edu.bggclient.collection.Collection;
 import be.edu.bggclient.collection.CollectionEndpoint;
 import be.edu.bggclient.collection.CollectionRequest;
@@ -12,7 +14,13 @@ public final class CollectionBggApiEndpoint extends BggEndpoint implements Colle
     }
 
     @Override
-    public Collection send(CollectionRequest request) {
-        return new CollectionXmlNode(this.asNode(request).getFirstChild()).build();
+    public Collection send(CollectionRequest request) throws BggClientException {
+        CollectionXmlNode xmlNode = new CollectionXmlNode(this.asNode(request).getFirstChild());
+        try {
+            return xmlNode.build();
+        } catch (RuntimeException re) {
+            // TODO_EDU check more specific exception
+            throw new BggClientException(BggClientError.UNSUPPORTED_XML, re);
+        }
     }
 }

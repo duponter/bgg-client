@@ -1,5 +1,6 @@
 package be.edu.bggclient.internal.collection;
 
+import be.edu.bggclient.BggClientException;
 import be.edu.bggclient.collection.Collection;
 import be.edu.bggclient.collection.CollectionEndpoint;
 import be.edu.bggclient.collection.CollectionItem;
@@ -10,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class CollectionBggApiEndpointIT {
     @Test
-    void returnsResults() {
+    void returnsResults() throws BggClientException {
         CollectionRequest request = new CollectionRequest("duponter").preordered().withStats();
         CollectionEndpoint endpoint = new CollectionBggApiEndpoint();
         Collection result = endpoint.send(request);

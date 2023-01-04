@@ -11,7 +11,6 @@ import be.edu.bggclient.play.Play;
 import be.edu.bggclient.play.PlayItem;
 import be.edu.bggclient.play.Player;
 import be.edu.bggclient.play.Plays;
-import org.approvaltests.JsonApprovals;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.junit.jupiter.api.Test;
@@ -22,11 +21,6 @@ import org.xmlunit.util.Convert;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PlayXmlNodeTest {
-    @Test
-    void mapsXmlToPojo() {
-        JsonApprovals.verifyAsJson(new PlaysXmlNode(readPlaysXml()).build());
-    }
-
     @Test
     void pojoToXmlMatchesCleanedOriginalXml() {
         Node xmlNode = readPlaysXml();

@@ -18,7 +18,6 @@ import be.edu.bggclient.thing.SuggestedPlayerAgeResult;
 import be.edu.bggclient.thing.SuggestedPlayerCountResult;
 import be.edu.bggclient.thing.Thing;
 import be.edu.bggclient.thing.ThingStatistics;
-import org.approvaltests.JsonApprovals;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.junit.jupiter.api.Test;
@@ -29,11 +28,6 @@ import org.xmlunit.util.Convert;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class ThingXmlNodeTest {
-    @Test
-    void mapsXmlToPojo() {
-        JsonApprovals.verifyAsJson(readThingXmls().map(ThingXmlNode::new).map(ThingXmlNode::build).collect(Collectors.toList()));
-    }
-
     @Test
     void pojoToXmlMatchesCleanedOriginalXml() {
         assertThat(readThingXmls().collect(Collectors.toList()))

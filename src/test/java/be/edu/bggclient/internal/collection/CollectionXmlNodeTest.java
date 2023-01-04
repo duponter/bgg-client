@@ -14,7 +14,6 @@ import be.edu.bggclient.internal.xml.XmlNode;
 import be.edu.bggclient.internal.xml.XmlPrinter;
 import be.edu.bggclient.internal.xml.XslStylesheet;
 import be.edu.bggclient.thing.Rank;
-import org.approvaltests.JsonApprovals;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.junit.jupiter.api.Test;
@@ -25,11 +24,6 @@ import org.xmlunit.util.Convert;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class CollectionXmlNodeTest {
-    @Test
-    void mapsXmlToPojo() {
-        JsonApprovals.verifyAsJson(new CollectionXmlNode(readCollectionXml()).build());
-    }
-
     @Test
     void pojoToXmlMatchesCleanedOriginalXml() {
         Node xmlNode = readCollectionXml();

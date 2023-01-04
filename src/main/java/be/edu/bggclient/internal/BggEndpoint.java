@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 import java.util.Objects;
 
@@ -12,9 +11,7 @@ import be.edu.bggclient.BggClientError;
 import be.edu.bggclient.BggClientException;
 import be.edu.bggclient.BggRequest;
 import be.edu.bggclient.internal.xml.XmlInput;
-import dev.failsafe.CircuitBreaker;
 import dev.failsafe.Failsafe;
-import dev.failsafe.Fallback;
 import dev.failsafe.RetryPolicy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,10 +23,6 @@ public class BggEndpoint {
 
     private final UrlFactory urlFactory;
     private final HttpClient httpClient;
-
-    public BggEndpoint(UrlFactory urlFactory) {
-        this(urlFactory, HttpClient.newBuilder().build());
-    }
 
     public BggEndpoint(UrlFactory urlFactory, HttpClient httpClient) {
         this.urlFactory = Objects.requireNonNull(urlFactory);
@@ -44,7 +37,7 @@ public class BggEndpoint {
         }
     }
 
-    private <T> T send(BggRequest bggRequest, HttpResponse.BodyHandler<T> bodyHandler) {
+    private <T> T send(BggRequest bggRequest, HttpResponse.BodyHandler<T> bodyHandler) throws BggClientException {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(this.urlFactory.create(bggRequest.buildQueryString()))
                 .version(HttpClient.Version.HTTP_2)
@@ -54,8 +47,7 @@ public class BggEndpoint {
 
         String abbreviatedRequest = request.uri().toString().replaceFirst("\\?.*$", "");
         RetryPolicy<HttpResponse<T>> retryPolicy = RetryPolicy.<HttpResponse<T>>builder()
-                .abortIf(response -> response.statusCode() == 200)
-                .handleResultIf(response -> response.statusCode() != 200)
+                .handleResultIf(response -> response.statusCode() == 202)
                 .withBackoff(1L, 100L, ChronoUnit.SECONDS)
                 .withMaxRetries(5)
                 .onFailedAttempt(e -> LOGGER.trace("Failed to get a response from {}", abbreviatedRequest))
@@ -64,18 +56,10 @@ public class BggEndpoint {
                 .onFailure(e -> LOGGER.warn("Request {} failed with response {}", abbreviatedRequest, e.getResult()))
                 .build();
 
-        CircuitBreaker<HttpResponse<T>> breaker = CircuitBreaker.<HttpResponse<T>>builder()
-                .handleResultIf(response -> response.statusCode() != 200)
-                .withFailureThreshold(3)
-                .withDelay(Duration.ofMinutes(1))
-                .withSuccessThreshold(1)
-                .onOpen(e -> LOGGER.warn("Circuit breaker opened"))
-                .onClose(e -> LOGGER.debug("Circuit breaker closed"))
-                .onHalfOpen(e -> LOGGER.trace("Circuit breaker half-opened"))
-                .build();
-
-        Fallback<HttpResponse<T>> fallback = Fallback.ofException(e -> new BggClientException(BggClientError.NO_BGG_RESPONSE, e.getLastException()));
-
-        return Failsafe.with(fallback).compose(retryPolicy).compose(breaker).get(() -> httpClient.send(request, bodyHandler)).body();
+        HttpResponse<T> response = Failsafe.with(retryPolicy).get(() -> httpClient.send(request, bodyHandler));
+        if (response.statusCode() != 200) {
+            throw new BggClientException(BggClientError.NO_BGG_RESPONSE);
+        }
+        return response.body();
     }
 }

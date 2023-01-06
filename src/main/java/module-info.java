@@ -1,3 +1,6 @@
+import be.edu.bggclient.collection.CollectionEndpoint;
+import be.edu.bggclient.internal.collection.CollectionBggApiEndpoint;
+
 module be.edu.bgg.client {
     requires java.xml;
     requires java.net.http;
@@ -9,4 +12,8 @@ module be.edu.bgg.client {
     exports be.edu.bggclient.geeklist;
     exports be.edu.bggclient.play;
     exports be.edu.bggclient.thing;
+
+    provides CollectionEndpoint with CollectionBggApiEndpoint;
+
+    uses CollectionEndpoint;
 }

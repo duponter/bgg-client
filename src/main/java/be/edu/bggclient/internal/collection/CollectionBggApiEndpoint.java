@@ -11,6 +11,10 @@ import be.edu.bggclient.internal.BggApi;
 import be.edu.bggclient.internal.BggEndpoint;
 
 public final class CollectionBggApiEndpoint extends BggEndpoint implements CollectionEndpoint {
+    public CollectionBggApiEndpoint() {
+        this(HttpClient.newHttpClient());
+    }
+
     public CollectionBggApiEndpoint(HttpClient httpClient) {
         super(BggApi.V2.create("collection"), httpClient);
     }
